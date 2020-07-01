@@ -1,0 +1,12 @@
+{
+    "create provider": {
+        "scope": "dart",
+        "prefix": "family",
+        "body": [
+            "final $1 = $2Family<$3, $4>((read, $5) {",
+            "    return $6;",
+            "});"
+        ],
+        "description": "Creates a family provider where you can prefix it with what you want. \nFor example Computed"
+    }
+}

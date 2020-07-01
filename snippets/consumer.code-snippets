@@ -1,0 +1,12 @@
+{
+    "create provider": {
+        "scope": "dart",
+        "prefix": "consumer",
+        "body": [
+            "Consumer((context, read) {",
+            "    return $1;",
+            "})$2"
+        ],
+        "description": "Creates a consumer"
+    }
+}

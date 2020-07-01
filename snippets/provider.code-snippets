@@ -1,0 +1,12 @@
+{
+    "create provider": {
+        "scope": "dart",
+        "prefix": "provider",
+        "body": [
+            "final $1 = $2Provider<$3>((ref) {",
+            "    return $4;",
+            "});"
+        ],
+        "description": "Creates a provider where you can prefix it with what you want. \nFor example Stream"
+    }
+}

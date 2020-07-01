@@ -1,0 +1,43 @@
+{
+    "name": "flutter-riverpod-snippets",
+    "displayName": "Flutter Riverpod Snippets",
+    "description": "Quick and easy Flutter Riverpod snippets",
+    "version": "0.0.1",
+    "publisher": "robertbrunhage",
+    "homepage": "https://github.com/RobertBrunhage/flutter-riverpod-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RobertBrunhage/flutter-riverpod-snippets"
+    },
+    "keywords": [
+        "Flutter",
+        "Dart",
+        "Snippets"
+    ],
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "dart",
+                "path": "./snippets/computed.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/consumer.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/family.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/provider.code-snippets"
+            }
+        ]
+    }
+}
