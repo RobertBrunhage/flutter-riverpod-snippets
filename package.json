@@ -2,7 +2,7 @@
     "name": "flutter-riverpod-snippets",
     "displayName": "Flutter Riverpod Snippets",
     "description": "Quick and easy Flutter Riverpod snippets",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "publisher": "robert-brunhage",
     "homepage": "https://github.com/RobertBrunhage/flutter-riverpod-snippets",
     "repository": {
@@ -22,10 +22,6 @@
     ],
     "contributes": {
         "snippets": [
-            {
-                "language": "dart",
-                "path": "./snippets/computed.code-snippets"
-            },
             {
                 "language": "dart",
                 "path": "./snippets/consumer.code-snippets"
