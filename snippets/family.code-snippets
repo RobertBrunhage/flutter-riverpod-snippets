@@ -3,10 +3,10 @@
         "scope": "dart",
         "prefix": "family",
         "body": [
-            "final $1 = $2Family<$3, $4>((read, $5) {",
+            "final $1 = $2.family<$3, $4>((read, $5) {",
             "    return $6;",
             "});"
         ],
-        "description": "Creates a family provider where you can prefix it with what you want. \nFor example Computed"
+        "description": "Creates a provider with the family prefix."
     }
 }
