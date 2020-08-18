@@ -4,6 +4,10 @@ All notable changes to the "flutter-riverpod-snippets" extension will be documen
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+### 0.1.1
 
-- Initial release
+Add support for Riverpod ^0.6.0
+
+### 0.1.0
+
+Initial release of Flutter Riverpod snippets

@@ -1,10 +1,9 @@
 # Flutter Riverpod Snippets
 
 Flutter Riverpod snippets is a way to enhance the way you use Riverpod. It contains a collection of different
-snippets such as `computed` and `provider`.
+snippets such as `provider`.
 
 ![familyGif](gifs/greetingProvider.gif)
-![familyGif](gifs/providerFamily.gif)
 
 ## Snippets
 
@@ -15,16 +14,12 @@ snippets such as `computed` and `provider`.
       <th>Description</th>
     </tr>
     <tr>
-      <td>computed</td>
-      <td>Creates a computed</td>
-    </tr>
-    <tr>
       <td>consumer</td>
       <td>Creates the Consumer widget</td>
     </tr>
     <tr>
       <td>family</td>
-      <td>Creates a family provider and lets you prefix it with whatever, for example Computed.</td>
+      <td>Creates a provider with the family prefix.</td>
     </tr>
     <tr>
       <td>provider</td>
@@ -40,6 +35,10 @@ Vscode: ^1.46.0
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
+
+### 0.1.1
+
+Add support for Riverpod ^0.6.0
 
 ### 0.1.0
 
