@@ -1,0 +1,14 @@
+{
+    "create a consumer widget": {
+        "prefix": "Consumer class Widget",
+        "body": [
+			"class $1 extends ConsumerWidget {",
+			"\t@override",
+			"\tWidget build(BuildContext context, ScopedReader watch) {",
+			"\t\treturn Container();",
+			"\t}",
+			"}",
+        ],
+        "description": "Creates a consumer class widget"
+    }
+}
