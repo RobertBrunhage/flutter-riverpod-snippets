@@ -1,0 +1,12 @@
+{
+  "Scoped Provider": {
+    "scope": "dart",
+    "description": "Create a ScopedProvider",
+    "prefix": "scopedProvider",
+    "body": [
+      "final $1 = ScopedProvider<$2>((ref){",
+      "\treturn $3;",
+      "});",
+    ]
+  }
+}

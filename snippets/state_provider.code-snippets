@@ -1,0 +1,22 @@
+{
+  "State Provider": {
+    "scope": "dart",
+    "prefix": "stateProvider",
+    "description": "Create a StateProvider",
+    "body": [
+      "final $1Provider = StateProvider<$2>((ref) {",
+      "\treturn $3;",
+      "});",
+    ]
+  },
+  "State Provider Family": {
+    "scope": "dart",
+    "prefix": "stateProviderFamily",
+    "description": "Create a StateProvider with Family modifier",
+    "body": [
+      "final $1Provider = StateProvider.family<$2, $3>((ref, $4) {",
+      "\treturn $5;",
+      "});"
+    ]
+  }
+}

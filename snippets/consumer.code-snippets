@@ -1,12 +1,14 @@
 {
-    "create provider": {
-        "scope": "dart",
-        "prefix": "consumer",
-        "body": [
-            "Consumer((context, read) {",
-            "    return $1;",
-            "})$2"
-        ],
-        "description": "Creates a consumer"
-    }
+  "create provider": {
+    "scope": "dart",
+    "prefix": "consumer",
+    "body": [
+      "Consumer(",
+      "\tbuilder: (context, watch, child) {",
+      "\t\treturn $1;",
+      "\t},",
+      ")"
+    ],
+    "description": "Creates a consumer"
+  }
 }

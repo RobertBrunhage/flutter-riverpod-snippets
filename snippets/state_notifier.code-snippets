@@ -1,0 +1,13 @@
+{
+  "State Notifier": {
+    "scope": "dart",
+    "prefix": "stateNotifier",
+    "description": "Create a StateNotifier with Editable Parameter",
+    "body": [
+      "class $1Notifier extends StateNotifier<$2> {",
+      "\t$1Notifier(): super($3);",
+      "\t$4",
+      "}"
+    ]
+  }
+}

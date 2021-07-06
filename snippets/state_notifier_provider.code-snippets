@@ -1,0 +1,22 @@
+{
+  "State Notifier Provider": {
+    "scope": "dart",
+    "prefix": "stateNotifierProvider",
+    "description": "Create a StateNotifierProvider",
+    "body": [
+      "final $1Provider = StateNotifierProvider<$2>((ref) {",
+      "\treturn $3",
+      "});"
+    ]
+  },
+  "State Notifier Provider with Family": {
+    "scope": "dart",
+    "prefix": "stateNotifierProviderFamily",
+    "description": "Create a StateNotifierProvider with Family Modifier",
+    "body": [
+      "final $1Provider = StateNotifierProvider.family<$2, $3>((ref, $4) {",
+      "\treturn $5",
+      "});"
+    ]
+  }
+}
