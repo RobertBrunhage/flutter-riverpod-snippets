@@ -1,63 +1,68 @@
 {
-  "name": "flutter-riverpod-snippets",
-  "displayName": "Flutter Riverpod Snippets",
-  "description": "Quick and easy Flutter Riverpod snippets",
-  "version": "0.1.1",
-  "publisher": "robert-brunhage",
-  "homepage": "https://github.com/RobertBrunhage/flutter-riverpod-snippets",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/RobertBrunhage/flutter-riverpod-snippets"
-  },
-  "keywords": [
-    "Flutter",
-    "Dart",
-    "Snippets"
-  ],
-  "engines": {
-    "vscode": "^1.46.0"
-  },
-  "categories": [
-    "Snippets"
-  ],
-  "contributes": {
-    "snippets": [
-      {
-        "language": "dart",
-        "path": "./snippets/consumer.code-snippets"
-      },
-      {
-        "language": "dart",
-        "path": "./snippets/change_notifier_provider.code-snippets"
-      },
-      {
-        "language": "dart",
-        "path": "./snippets/future_provider.code-snippets"
-      },
-      {
-        "language": "dart",
-        "path": "./snippets/provider.code-snippets"
-      },
-      {
-        "language": "dart",
-        "path": "./snippets/scoped_provider.code-snippets"
-      },
-      {
-        "language": "dart",
-        "path": "./snippets/state_notifier.code-snippets"
-      },
-      {
-        "language": "dart",
-        "path": "./snippets/state_notifier_provider.code-snippets"
-      },
-      {
-        "language": "dart",
-        "path": "./snippets/state_provider.code-snippets"
-      },
-      {
-        "language": "dart",
-        "path": "./snippets/stream_provider.code-snippets"
-      }
-    ]
-  }
+    "name": "flutter-riverpod-snippets",
+    "displayName": "Flutter Riverpod Snippets",
+    "description": "Quick and easy Flutter Riverpod snippets",
+    "icon": "logo.jpg",
+    "version": "0.2.0",
+    "publisher": "robert-brunhage",
+    "homepage": "https://github.com/RobertBrunhage/flutter-riverpod-snippets",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RobertBrunhage/flutter-riverpod-snippets"
+    },
+    "keywords": [
+        "Flutter",
+        "Dart",
+        "Snippets"
+    ],
+    "engines": {
+        "vscode": "^1.57.1"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "dart",
+                "path": "./snippets/consumer.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/change_notifier_provider.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/future_provider.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/provider.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/scoped_provider.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/state_notifier.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/change_notifier.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/state_notifier_provider.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/state_provider.code-snippets"
+            },
+            {
+                "language": "dart",
+                "path": "./snippets/stream_provider.code-snippets"
+            }
+        ]
+    }
 }
