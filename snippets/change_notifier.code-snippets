@@ -5,7 +5,7 @@
         "description": "Create a ChangeNotifier with Editable Parameter",
         "body": [
             "class $1Notifier extends ChangeNotifier {",
-            "\t$4",
+            "\t$2",
             "}"
         ]
     }
