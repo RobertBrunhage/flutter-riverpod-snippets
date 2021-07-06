@@ -1,0 +1,20 @@
+{
+  "State Provider": {
+    "scope": "dart",
+    "prefix": "streamProvider",
+    "body": [
+      "final $1Provider = StreamProvider<$2>((ref) async* {",
+      "\t$3",
+      "});"
+    ]
+  },
+  "State Provider Family": {
+    "scope": "dart",
+    "prefix": "streamProviderFamily",
+    "body": [
+      "final $1Provider = StreamProvider.family<$2, $3>((ref, $4) async* {",
+      "\t$5",
+      "});"
+    ]
+  }
+}

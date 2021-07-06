@@ -1,12 +1,16 @@
 {
-    "create provider": {
-        "scope": "dart",
-        "prefix": "provider",
-        "body": [
-            "final $1 = $2Provider<$3>((ref) {",
-            "    return $4;",
-            "});"
-        ],
-        "description": "Creates a provider where you can prefix it with what you want. \nFor example Stream"
-    }
+  "Provider": {
+    "scope": "dart",
+    "prefix": "provider",
+    "body": ["final $1Provider = Provider<$2>((ref) {", "\treturn $3;", "});"]
+  },
+  "Provider with Family": {
+    "scope": "dart",
+    "prefix": "providerFamily",
+    "body": [
+      "final $1Provider = Provider.family<$2, $3>((ref, $4) {",
+      "\treturn $code$;",
+      "});"
+    ]
+  }
 }
