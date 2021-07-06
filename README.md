@@ -35,6 +35,10 @@ Vscode: ^1.57.1
 
 Users appreciate release notes as you update your extension.
 
+### 0.2.1
+
+- Update logo
+
 ### 0.2.0
 
 - Added support for Riverpod 0.14.0
