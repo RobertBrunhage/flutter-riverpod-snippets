@@ -4,6 +4,11 @@ All notable changes to the "flutter-riverpod-snippets" extension will be documen
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### 0.2.0
+
+- Added support for all types of `Providers`, `ChangeNotifier` and `StateNotifier`
+
+
 ### 0.1.1
 
 Add support for Riverpod ^0.6.0
