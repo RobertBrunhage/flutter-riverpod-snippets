@@ -2,11 +2,13 @@
   "Provider": {
     "scope": "dart",
     "prefix": "provider",
+    "description": "Create a simple Provider",
     "body": ["final $1Provider = Provider<$2>((ref) {", "\treturn $3;", "});"]
   },
   "Provider with Family": {
     "scope": "dart",
     "prefix": "providerFamily",
+    "description": "Create a simple Provider with Family modifier",
     "body": [
       "final $1Provider = Provider.family<$2, $3>((ref, $4) {",
       "\treturn $code$;",
