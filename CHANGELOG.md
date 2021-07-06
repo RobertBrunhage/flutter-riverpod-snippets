@@ -7,7 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### 0.2.0
 
 - Added support for all types of `Providers`, `ChangeNotifier` and `StateNotifier`
-- Added support for **Freezed** and **Json Serializable** Package
+
 
 ### 0.1.1
 
