@@ -36,6 +36,11 @@ Vscode: ^1.46.0
 
 Users appreciate release notes as you update your extension.
 
+### 0.2.0
+
+- Added support for all types of `Providers`, `ChangeNotifier` and `StateNotifier`
+- Added support for **Freezed** and **Json Serializable** Package
+
 ### 0.1.1
 
 Add support for Riverpod ^0.6.0
@@ -43,3 +48,5 @@ Add support for Riverpod ^0.6.0
 ### 0.1.0
 
 Initial release of Flutter Riverpod snippets
+
+### 0.2.0
