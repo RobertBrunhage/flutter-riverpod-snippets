@@ -1,5 +1,5 @@
 {
-  "Change Notifier Provider": {
+  "Consumer Stateless": {
     "scope": "dart",
     "prefix": "consumerStless",
     "description": "Create a Consumer Stateless Widget",
@@ -8,12 +8,12 @@
       "\tconst $1({Key? key}) : super(key: key);",
       "\t@override",
       "\tWidget build(BuildContext context, WidgetRef ref) {",
-      "\t\treturn Container();",
+      "\t\treturn Container($2);",
       "\t}",
       "}"
     ]
   },
-  "Change Notifier Provider with Family": {
+  "Consumer Stateful": {
     "scope": "dart",
     "prefix": "consumerStful",
     "description": "Create a Consumer Stateful widget",
@@ -27,7 +27,7 @@
 
       "\t@override",
       "\tWidget build(BuildContext context) {",
-      "\t\treturn Container(",
+      "\t\treturn Container($2",
       "\t\t);",
       "\t}",
       "}"

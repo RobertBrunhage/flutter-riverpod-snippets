@@ -60,7 +60,15 @@
       },
       {
         "language": "dart",
-        "path": "./snippets/consumer-widget.code-snippets"
+        "path": "./snippets/consumer_widget.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/hook_consumer.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/provider_listenable.code-snippets"
       }
     ]
   }

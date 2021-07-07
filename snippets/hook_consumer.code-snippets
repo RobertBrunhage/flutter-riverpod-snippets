@@ -1,0 +1,17 @@
+{
+  "Hook Consumer Widget": {
+    "scope": "dart",
+    "prefix": "futureProvider",
+    "description": "Create a Hook Consumer Widget",
+    "body": [
+      "class $1 extends HookConsumerWidget {",
+      "\tconst $1({Key? key}) : super(key: key);",
+
+      "\t@override",
+      "\tWidget build(BuildContext context, WidgetRef ref) {",
+      "\t\treturn $2;",
+      "\t}",
+      "}"
+    ]
+  }
+}

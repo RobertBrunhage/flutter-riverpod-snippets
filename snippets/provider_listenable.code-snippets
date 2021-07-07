@@ -1,0 +1,8 @@
+{
+  "Hook Consumer Widget": {
+    "scope": "dart",
+    "prefix": "futureProvider",
+    "description": "Create a Hook Consumer Widget",
+    "body": ["ref.listen<$1>($2, (value) { });"]
+  }
+}
