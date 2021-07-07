@@ -2,20 +2,20 @@
   "Change Notifier Provider": {
     "scope": "dart",
     "prefix": "changeNotifierProvider",
-    "description": "Create a Change Notifier Provider",
+    "description": "Create a ChangeNotifierProvider",
     "body": [
       "final $1Provider = ChangeNotifierProvider<$2>((ref) {",
-      "\t$3",
+      "\treturn $3;",
       "});"
     ]
   },
   "Change Notifier Provider with Family": {
     "scope": "dart",
     "prefix": "changeNotifierProviderFamily",
-    "description": "Create a Change Notifier Provider with Family modifier",
+    "description": "Create a Change otifierProvider with Family modifier",
     "body": [
       "final $1Provider = ChangeNotifierProvider.family<$2, $3>((ref, $4) {",
-      "\t$5",
+      "\treturn $5;",
       "});"
     ]
   }

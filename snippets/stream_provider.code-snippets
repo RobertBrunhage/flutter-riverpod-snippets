@@ -2,20 +2,20 @@
   "State Provider": {
     "scope": "dart",
     "prefix": "streamProvider",
-    "description": "Create a Stream Provider",
+    "description": "Create a StreamProvider",
     "body": [
       "final $1Provider = StreamProvider<$2>((ref) async* {",
-      "\t$3",
+      "\treturn $3;",
       "});"
     ]
   },
   "State Provider Family": {
     "scope": "dart",
     "prefix": "streamProviderFamily",
-    "description": "Create a Stream Provider with Family modifier",
+    "description": "Create a StreamProvider with Family modifier",
     "body": [
       "final $1Provider = StreamProvider.family<$2, $3>((ref, $4) async* {",
-      "\t$5",
+      "\treturn $5;",
       "});"
     ]
   }
