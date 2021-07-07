@@ -3,7 +3,7 @@
 Flutter Riverpod snippets is a way to enhance the way you use Riverpod. It contains a collection of different
 snippets such as `provider`.
 
-![familyGif](gifs/greetingProvider.gif)
+![greetingProviderGif](gifs/greetingProvider.gif)
 
 ## Snippets
 
