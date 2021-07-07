@@ -1,21 +1,21 @@
 {
   "Consumer Stateless": {
     "scope": "dart",
-    "prefix": "consumerStless",
+    "prefix": "stlessConsumer",
     "description": "Create a Consumer Stateless Widget",
     "body": [
       "class $1 extends ConsumerWidget {",
       "\tconst $1({Key? key}) : super(key: key);",
       "\t@override",
       "\tWidget build(BuildContext context, WidgetRef ref) {",
-      "\t\treturn Container($2);",
+      "\t\treturn Container();",
       "\t}",
       "}"
     ]
   },
   "Consumer Stateful": {
     "scope": "dart",
-    "prefix": "consumerStful",
+    "prefix": "stfulConsumer",
     "description": "Create a Consumer Stateful widget",
     "body": [
       "class $1 extends ConsumerStatefulWidget {",
@@ -27,8 +27,7 @@
 
       "\t@override",
       "\tWidget build(BuildContext context) {",
-      "\t\treturn Container($2",
-      "\t\t);",
+      "\t\treturn Container();",
       "\t}",
       "}"
     ]

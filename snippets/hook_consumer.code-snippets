@@ -9,7 +9,7 @@
 
       "\t@override",
       "\tWidget build(BuildContext context, WidgetRef ref) {",
-      "\t\treturn $2;",
+      "\t\treturn Container();",
       "\t}",
       "}"
     ]
