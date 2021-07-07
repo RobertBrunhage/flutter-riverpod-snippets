@@ -57,6 +57,10 @@
       {
         "language": "dart",
         "path": "./snippets/stream_provider.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/consumer-widget.code-snippets"
       }
     ]
   }

@@ -1,0 +1,36 @@
+{
+  "Change Notifier Provider": {
+    "scope": "dart",
+    "prefix": "consumerStless",
+    "description": "Create a Consumer Stateless Widget",
+    "body": [
+      "class $1 extends ConsumerWidget {",
+      "\tconst $1({Key? key}) : super(key: key);",
+      "\t@override",
+      "\tWidget build(BuildContext context, WidgetRef ref) {",
+      "\t\treturn Container();",
+      "\t}",
+      "}"
+    ]
+  },
+  "Change Notifier Provider with Family": {
+    "scope": "dart",
+    "prefix": "consumerStful",
+    "description": "Create a Consumer Stateful widget",
+    "body": [
+      "class $1 extends ConsumerStatefulWidget {",
+      "\t@override",
+      "\tConsumerState<ConsumerStatefulWidget> createState() => _$1State();",
+      "}",
+
+      "class _$1State extends ConsumerState<$1> {",
+
+      "\t@override",
+      "\tWidget build(BuildContext context) {",
+      "\t\treturn Container(",
+      "\t\t);",
+      "\t}",
+      "}"
+    ]
+  }
+}
