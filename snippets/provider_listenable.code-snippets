@@ -1,8 +1,8 @@
 {
-  "Hook Consumer Widget": {
+  "Provider Listenable": {
     "scope": "dart",
-    "prefix": "futureProvider",
-    "description": "Create a Hook Consumer Widget",
+    "prefix": "listen",
+    "description": "Create a provider listenable",
     "body": ["ref.listen<$1>($2, (value) { });"]
   }
 }

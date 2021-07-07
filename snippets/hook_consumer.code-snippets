@@ -1,7 +1,7 @@
 {
   "Hook Consumer Widget": {
     "scope": "dart",
-    "prefix": "futureProvider",
+    "prefix": "hookConsumer",
     "description": "Create a Hook Consumer Widget",
     "body": [
       "class $1 extends HookConsumerWidget {",

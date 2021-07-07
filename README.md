@@ -12,6 +12,9 @@ snippets such as `provider`.
 | Shortcut                       | Description                                                                  |
 | ------------------------------ | ---------------------------------------------------------------------------- |
 | `consumer`                     | Creates the Consumer widget                                                  |
+| `consumerStless`               | Creates a Consumer Stateless widget                                          |
+| `consumerStful`                | Creates a Consumer Stateful widget                                           |
+| `hookConsumer`                 | Creates a Hook Consumer widget                                               |
 | `provider`                     | Creates a simple riverod provider                                            |
 | `providerFamily`               | Creates a provider with the family modifier                                  |
 | `futureProvider`               | Creates a Future provider                                                    |
@@ -27,20 +30,24 @@ snippets such as `provider`.
 | `stateNotifierProviderFamily`  | Creates a State Notifier Provider with the family modifier                   |
 | `scopedProvider`               | Creates a Scoped provider                                                    |
 | `stateNotifier`                | Creates a class that extends State Notifier and allows you to edit the types |
-
+| `listen`                       | Creates a provider listenable with editable parameters                       |
 
 ## Requirements
 
-Vscode: ^1.46.0
+Vscode: ^1.57.1
 
 ## Release Notes
 
 Users appreciate release notes as you update your extension.
 
+### 1.0.0
+
+- Added support for `Riverpod` **v1.0**
+- Added `Consumer Stateless Widget`, `Consumer Stateful Widget`, `Hook Consumer Widget`.
+
 ### 0.2.0
 
 - Added support for all types of `Providers`, `ChangeNotifier` and `StateNotifier`
-
 
 ### 0.1.1
 
