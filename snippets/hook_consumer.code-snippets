@@ -2,7 +2,7 @@
   "Hook Consumer Widget": {
     "scope": "dart",
     "prefix": "hookConsumer",
-    "description": "Create a Hook Consumer Widget",
+    "description": "Create a HookConsumerWidget",
     "body": [
       "class $1 extends HookConsumerWidget {",
       "\tconst $1({Key? key}) : super(key: key);",
