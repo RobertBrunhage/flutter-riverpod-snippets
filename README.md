@@ -45,6 +45,10 @@ Users appreciate release notes as you update your extension.
 - Added support for `Riverpod` **v1.0**
 - Added `ConsumerStatelessWidget`, `ConsumerStatefulWidget`, `HookConsumerWidget`.
 
+### 0.2.1
+
+- Update logo
+
 ### 0.2.0
 
 - Added support for all types of `Providers`, `ChangeNotifier` and `StateNotifier`

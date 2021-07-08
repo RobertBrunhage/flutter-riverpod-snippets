@@ -5,7 +5,7 @@
     "description": "Create a provider listenable",
     "body": [
       "ref.listen<$1>($2, (value) { ", 
-      "\t}", 
-      ");"]
+      "\t$3", 
+      "});"]
   }
 }
