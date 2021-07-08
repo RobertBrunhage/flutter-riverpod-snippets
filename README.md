@@ -42,7 +42,7 @@ Users appreciate release notes as you update your extension.
 ### 1.0.0
 
 - Added support for `Riverpod` **v1.0**
-- Added `Consumer Stateless Widget`, `Consumer Stateful Widget`, `Hook Consumer Widget`.
+- Added `ConsumerStatelessWidget`, `ConsumerStatefulWidget`, `HookConsumerWidget`.
 
 ### 0.2.0
 
@@ -50,10 +50,8 @@ Users appreciate release notes as you update your extension.
 
 ### 0.1.1
 
-Add support for Riverpod ^0.6.0
+- Add support for Riverpod ^0.6.0
 
 ### 0.1.0
 
-Initial release of Flutter Riverpod snippets
-
-### 0.2.0
+- Initial release of Flutter Riverpod snippets
