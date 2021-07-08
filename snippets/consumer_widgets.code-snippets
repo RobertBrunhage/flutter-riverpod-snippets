@@ -16,7 +16,7 @@
   "Consumer Stateful": {
     "scope": "dart",
     "prefix": "stfulConsumer",
-    "description": "Create a Consumer Stateful widget",
+    "description": "Create a ConsumerStatefulWidget",
     "body": [
       "class $1 extends ConsumerStatefulWidget {",
       "\t@override",
