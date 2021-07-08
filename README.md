@@ -9,28 +9,27 @@ snippets such as `provider`.
 
 ## Snippets
 
-| Shortcut                       | Description                                                                  |
-| ------------------------------ | ---------------------------------------------------------------------------- |
-| `consumer`                     | Creates the Consumer widget                                                  |
-| `stlessConsumer`               | Creates a Consumer Stateless widget                                          |
-| `stfulConsumer`                | Creates a Consumer Stateful widget                                           |
-| `hookConsumer`                 | Creates a Hook Consumer widget                                               |
-| `provider`                     | Creates a simple riverod provider                                            |
-| `providerFamily`               | Creates a provider with the family modifier                                  |
-| `futureProvider`               | Creates a Future provider                                                    |
-| `futureProviderFamily`         | Creates a Future Provider with the family modifier                           |
-| `streamProvider`               | Creates a Stream provider                                                    |
-| `streamProviderFamily`         | Creates a Stream Provider with the family modifier                           |
-| `changeNotifierProvider`       | Creates a Change Notifier provider                                           |
-| `changeNotifierProviderFamily` | Creates a Change Notifier Provider with the family modifier                  |
-| `stateProvider`                | Creates a State provider                                                     |
-| `stateProviderFamily`          | Creates a State Provider with the family modifier                            |
-| `stateProviderFamily`          | Creates a State Provider with the family modifier                            |
-| `stateNotifierProvider`        | Creates a State Notifier provider                                            |
-| `stateNotifierProviderFamily`  | Creates a State Notifier Provider with the family modifier                   |
-| `scopedProvider`               | Creates a Scoped provider                                                    |
-| `stateNotifier`                | Creates a class that extends State Notifier and allows you to edit the types |
-| `listen`                       | Creates a provider listenable with editable parameters                       |
+| Shortcut                       | Description                                                                 |
+| ------------------------------ | --------------------------------------------------------------------------- |
+| `consumer`                     | Creates the Consumer widget                                                 |
+| `stlessConsumer`               | Creates a ConsumerStateless widget                                         |
+| `stfulConsumer`                | Creates a ConsumerStateful widget                                          |
+| `hookConsumer`                 | Creates a HookConsumer widget                                              |
+| `provider`                     | Creates a simple riverod provider                                           |
+| `providerFamily`               | Creates a provider with the family modifier                                 |
+| `futureProvider`               | Creates a FutureProvider                                                    |
+| `futureProviderFamily`         | Creates a FutureProvider with the family modifier                           |
+| `streamProvider`               | Creates a StreamProvider                                                    |
+| `streamProviderFamily`         | Creates a StreamProvider with the family modifier                           |
+| `changeNotifierProvider`       | Creates a ChangeNotifierProvider                                            |
+| `changeNotifierProviderFamily` | Creates a ChangeNotifierProvider with the family modifier                   |
+| `stateProvider`                | Creates a StateProvider                                                     |
+| `stateProviderFamily`          | Creates a StateProvider with the family modifier                            |
+| `stateProviderFamily`          | Creates a StateProvider with the family modifier                            |
+| `stateNotifierProvider`        | Creates a StateNotifier provider                                            |
+| `stateNotifierProviderFamily`  | Creates a StateNotifierProvider with the family modifier                    |
+| `scopedProvider`               | Creates a ScopedProvider                                                    |
+| `stateNotifier`                | Creates a class that extends StateNotifier and allows you to edit the types |
 
 ## Requirements
 
