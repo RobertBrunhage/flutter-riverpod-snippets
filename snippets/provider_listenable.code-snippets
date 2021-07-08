@@ -3,6 +3,9 @@
     "scope": "dart",
     "prefix": "listen",
     "description": "Create a provider listenable",
-    "body": ["ref.listen<$1>($2, (value) {", "});"]
+    "body": [
+      "ref.listen<$1>($2, (value) { ", 
+      "\t}", 
+      ");"]
   }
 }

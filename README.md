@@ -12,9 +12,9 @@ snippets such as `provider`.
 | Shortcut                       | Description                                                                 |
 | ------------------------------ | --------------------------------------------------------------------------- |
 | `consumer`                     | Creates the Consumer widget                                                 |
-| `stlessConsumer`               | Creates a ConsumerStateless widget                                         |
-| `stfulConsumer`                | Creates a ConsumerStateful widget                                          |
-| `hookConsumer`                 | Creates a HookConsumer widget                                              |
+| `stlessConsumer`               | Creates a ConsumerStateless widget                                          |
+| `stfulConsumer`                | Creates a ConsumerStateful widget                                           |
+| `hookConsumer`                 | Creates a HookConsumer widget                                               |
 | `provider`                     | Creates a simple riverod provider                                           |
 | `providerFamily`               | Creates a provider with the family modifier                                 |
 | `futureProvider`               | Creates a FutureProvider                                                    |
@@ -30,6 +30,7 @@ snippets such as `provider`.
 | `stateNotifierProviderFamily`  | Creates a StateNotifierProvider with the family modifier                    |
 | `scopedProvider`               | Creates a ScopedProvider                                                    |
 | `stateNotifier`                | Creates a class that extends StateNotifier and allows you to edit the types |
+| `listen`                       | Creates a Provider Listenable                                               |
 
 ## Requirements
 
