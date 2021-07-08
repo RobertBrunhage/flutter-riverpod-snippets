@@ -51,7 +51,7 @@ Users appreciate release notes as you update your extension.
 
 ### 0.1.1
 
-Add support for Riverpod ^0.6.0
+- Add support for Riverpod ^0.6.0
 
 ### 0.1.0
 
