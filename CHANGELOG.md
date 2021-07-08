@@ -4,10 +4,14 @@ All notable changes to the "flutter-riverpod-snippets" extension will be documen
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### 1.0.0
+
+- Added support for `Riverpod` **v1.0**
+- Added `Consumer Stateless Widget`, `Consumer Stateful Widget`, `Hook Consumer Widget`.
+
 ### 0.2.0
 
 - Added support for all types of `Providers`, `ChangeNotifier` and `StateNotifier`
-
 
 ### 0.1.1
 
