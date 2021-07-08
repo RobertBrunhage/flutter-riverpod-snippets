@@ -56,5 +56,3 @@ Users appreciate release notes as you update your extension.
 ### 0.1.0
 
 Initial release of Flutter Riverpod snippets
-
-### 0.2.0
