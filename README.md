@@ -43,7 +43,7 @@ Users appreciate release notes as you update your extension.
 ### 1.0.0
 
 - Added support for `Riverpod` **v1.0**
-- Added `Consumer Stateless Widget`, `Consumer Stateful Widget`, `Hook Consumer Widget`.
+- Added `ConsumerStatelessWidget`, `ConsumerStatefulWidget`, `HookConsumerWidget`.
 
 ### 0.2.0
 
