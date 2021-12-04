@@ -3,7 +3,7 @@
   "displayName": "Flutter Riverpod Snippets",
   "description": "Quick and easy Flutter Riverpod snippets",
   "icon": "logo.jpg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "robert-brunhage",
   "homepage": "https://github.com/RobertBrunhage/flutter-riverpod-snippets",
   "repository": {
@@ -17,7 +17,7 @@
     "Riverpod"
   ],
   "engines": {
-    "vscode": "^1.57.1"
+    "vscode": "^1.62.3"
   },
   "categories": [
     "Snippets"

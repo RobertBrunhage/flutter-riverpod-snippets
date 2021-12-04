@@ -1,22 +1,46 @@
 # Change Log
 
-All notable changes to the "flutter-riverpod-snippets" extension will be documented in this file.
+All notable changes to the **flutter-riverpod-snippets** extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-### 1.0.0
+### [1.0.1]
 
-- Added support for `Riverpod` **v1.0**
-- Added `Consumer Stateless Widget`, `Consumer Stateful Widget`, `Hook Consumer Widget`.
+### Fix
 
-### 0.2.0
+- `stfulConsumer` and `stlessConsumer` snippet.
 
-- Added support for all types of `Providers`, `ChangeNotifier` and `StateNotifier`
+### Remove
 
-### 0.1.1
+- `scopedProvider` snippet.
 
-Add support for Riverpod ^0.6.0
+### [1.0.0]
 
-### 0.1.0
+### Add
 
-Initial release of Flutter Riverpod snippets
+- Support for `Riverpod` **v1.0**
+- `ConsumerStatelessWidget`, `ConsumerStatefulWidget`, `HookConsumerWidget`.
+
+### [0.2.1]
+
+### Update
+
+- Update logo
+
+### [0.2.0]
+
+### Add
+
+- Support for all types of `Providers`, `ChangeNotifier` and `StateNotifier`
+
+### [0.1.1]
+
+### Add
+
+- Support for Riverpod ^0.6.0
+
+### [0.1.0]
+
+### Add
+
+- Initial release of Flutter Riverpod snippets

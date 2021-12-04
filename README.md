@@ -7,8 +7,6 @@ snippets such as `provider`.
 
 ## Snippets
 
-## Snippets
-
 | Shortcut                       | Description                                                                 |
 | ------------------------------ | --------------------------------------------------------------------------- |
 | `consumer`                     | Creates the Consumer widget                                                 |
@@ -28,7 +26,6 @@ snippets such as `provider`.
 | `stateProviderFamily`          | Creates a StateProvider with the family modifier                            |
 | `stateNotifierProvider`        | Creates a StateNotifier provider                                            |
 | `stateNotifierProviderFamily`  | Creates a StateNotifierProvider with the family modifier                    |
-| `scopedProvider`               | Creates a ScopedProvider                                                    |
 | `stateNotifier`                | Creates a class that extends StateNotifier and allows you to edit the types |
 | `listen`                       | Creates a Provider Listenable                                               |
 
@@ -38,25 +35,4 @@ Vscode: ^1.57.1
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-- Added support for `Riverpod` **v1.0**
-- Added `ConsumerStatelessWidget`, `ConsumerStatefulWidget`, `HookConsumerWidget`.
-
-### 0.2.1
-
-- Update logo
-
-### 0.2.0
-
-- Added support for all types of `Providers`, `ChangeNotifier` and `StateNotifier`
-
-### 0.1.1
-
-- Add support for Riverpod ^0.6.0
-
-### 0.1.0
-
-- Initial release of Flutter Riverpod snippets
+Please check [Changelog](CHANGELOG.md)
