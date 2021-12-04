@@ -42,10 +42,6 @@
       },
       {
         "language": "dart",
-        "path": "./snippets/scoped_provider.code-snippets"
-      },
-      {
-        "language": "dart",
         "path": "./snippets/state_notifier.code-snippets"
       },
       {
