@@ -3,7 +3,7 @@ name: Deploy Extension
 on: [workflow_dispatch]
 
 jobs:
-  deploy:
+  deploy-to-vscode:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -13,3 +13,14 @@ jobs:
           args: "publish -p $VSCE_TOKEN"
         env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+  # Will add this later
+  # deploy-to-vscodium:
+  #   runs-on: ubuntu-latest
+  #   steps:
+  #     - uses: actions/setup-node@v1
+  #       with:
+  #         node-version: 12
+  #     - uses: HaaLeo/publish-vscode-extension@v0
+  #       id: publishToOpenVSX
+  #       with:
+  #         pat: ${{ secrets.OPEN_VSX_TOKEN }}
