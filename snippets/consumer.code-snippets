@@ -4,7 +4,7 @@
     "prefix": "consumer",
     "body": [
       "Consumer(",
-      "\tbuilder: (context, watch, child) {",
+      "\tbuilder: (context, ref, child) {",
       "\t\treturn $1;",
       "\t},",
       ")"
