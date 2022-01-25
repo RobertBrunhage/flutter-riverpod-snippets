@@ -8,7 +8,7 @@
       "\tconst ${1:name}({Key? key}) : super(key: key);\n",
       "\t@override",
       "\tWidget build(BuildContext context, WidgetRef ref) {",
-        "\t\treturn Container();",
+      "\t\treturn Container();",
       "\t}",
       "}",
     ]
