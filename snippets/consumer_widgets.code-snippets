@@ -10,7 +10,7 @@
       "\tWidget build(BuildContext context, WidgetRef ref) {",
       "\t\treturn Container();",
       "\t}",
-      "}",
+      "}"
     ]
   },
   "Consumer Stateful": {
