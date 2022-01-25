@@ -4,13 +4,13 @@
     "prefix": "stlessConsumer",
     "description": "Create a ConsumerStatelessWidget",
     "body": [
-      "class $1 extends ConsumerWidget {",
-      "\tconst $1({Key? key}) : super(key: key);",
+      "class ${1:name} extends ConsumerWidget {",
+      "\tconst ${1:name}({Key? key}) : super(key: key);\n",
       "\t@override",
       "\tWidget build(BuildContext context, WidgetRef ref) {",
-      "\t\treturn Container();",
+        "\t\treturn Container();",
       "\t}",
-      "}"
+      "}",
     ]
   },
   "Consumer Stateful": {
@@ -18,18 +18,19 @@
     "prefix": "stfulConsumer",
     "description": "Create a ConsumerStatefulWidget",
     "body": [
-      "class $1 extends ConsumerStatefulWidget {",
-      "\t@override",
-      "\tConsumerState<ConsumerStatefulWidget> createState() => _$1State();",
-      "}",
-
-      "class _$1State extends ConsumerState<$1> {",
-
-      "\t@override",
-      "\tWidget build(BuildContext context) {",
-      "\t\treturn Container();",
-      "\t}",
-      "}"
+		  "class ${1:name} extends ConsumerStatefulWidget {",
+		  "\tconst ${1:name}({Key? key}) : super(key: key);\n",
+		  "\t@override",
+		  "\tConsumerState<ConsumerStatefulWidget> createState() => _${1:name}State();",
+		  "}",
+	
+		  "class _${1:name}State extends ConsumerState<${1:name}> {",
+	
+		  "\t@override",
+		  "\tWidget build(BuildContext context) {",
+		  "\t\treturn Container();",
+		  "\t}",
+		  "}"
     ]
   }
 }

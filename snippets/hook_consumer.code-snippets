@@ -1,17 +1,37 @@
 {
-  "Hook Consumer Widget": {
+  "Hook Consumer Stateless Widget": {
     "scope": "dart",
-    "prefix": "hookConsumer",
+    "prefix": "hookStlessConsumer",
     "description": "Create a HookConsumerWidget",
     "body": [
-      "class $1 extends HookConsumerWidget {",
-      "\tconst $1({Key? key}) : super(key: key);",
+      "class ${1:name} extends HookConsumerWidget {",
+      "\tconst ${1:name}({Key? key}) : super(key: key);",
 
       "\t@override",
       "\tWidget build(BuildContext context, WidgetRef ref) {",
       "\t\treturn Container();",
       "\t}",
       "}"
+    ]
+  },
+  "Hook Consumer Stateful Widget": {
+    "scope": "dart",
+    "prefix": "hookStfulConsumer",
+    "description": "Create a StatefulHookConsumerWidget",
+    "body": [
+      "class ${1:name} extends StatefulHookConsumerWidget {",
+      "\tconst ${1:name}({Key? key}) : super(key: key);\n",
+		  "\t@override",
+		  "\tConsumerState<ConsumerStatefulWidget> createState() => _${1:name}State();",
+		  "}",
+	
+		  "class _${1:name}State extends ConsumerState<${1:name}> {",
+	
+		  "\t@override",
+		  "\tWidget build(BuildContext context) {",
+		  "\t\treturn Container();",
+		  "\t}",
+		  "}"
     ]
   }
 }
