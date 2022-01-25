@@ -18,19 +18,17 @@
     "prefix": "stfulConsumer",
     "description": "Create a ConsumerStatefulWidget",
     "body": [
-		  "class ${1:name} extends ConsumerStatefulWidget {",
-		  "\tconst ${1:name}({Key? key}) : super(key: key);\n",
-		  "\t@override",
-		  "\tConsumerState<ConsumerStatefulWidget> createState() => _${1:name}State();",
-		  "}",
-	
-		  "class _${1:name}State extends ConsumerState<${1:name}> {",
-	
-		  "\t@override",
-		  "\tWidget build(BuildContext context) {",
-		  "\t\treturn Container();",
-		  "\t}",
-		  "}"
+      "class ${1:name} extends ConsumerStatefulWidget {",
+      "\tconst ${1:name}({Key? key}) : super(key: key);\n",
+      "\t@override",
+      "\tConsumerState<ConsumerStatefulWidget> createState() => _${1:name}State();",
+      "}\n",
+      "class _${1:name}State extends ConsumerState<${1:name}> {\n",
+      "\t@override",
+      "\tWidget build(BuildContext context) {",
+      "\t\treturn Container();",
+      "\t}",
+      "}"
     ]
   }
 }
