@@ -12,7 +12,8 @@ snippets such as `provider`.
 | `consumer`                     | Creates the Consumer widget                                                 |
 | `stlessConsumer`               | Creates a ConsumerStateless widget                                          |
 | `stfulConsumer`                | Creates a ConsumerStateful widget                                           |
-| `hookConsumer`                 | Creates a HookConsumer widget                                               |
+| `stlessHookConsumer`           | Creates a Stateless HookConsumer widget                                     |
+| `stfulHookConsumer`            | Creates a Stateful HookConsumer widget                                      |
 | `provider`                     | Creates a simple riverod provider                                           |
 | `providerFamily`               | Creates a provider with the family modifier                                 |
 | `futureProvider`               | Creates a FutureProvider                                                    |
