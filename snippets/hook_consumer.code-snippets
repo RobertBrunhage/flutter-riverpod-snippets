@@ -4,8 +4,8 @@
     "prefix": "stlessHookConsumer",
     "description": "Create a HookConsumerWidget",
     "body": [
-      "class ${1:name} extends HookConsumerWidget {",
-      "\tconst ${1:name}({Key? key}) : super(key: key);",
+      "class $1 extends HookConsumerWidget {",
+      "\tconst $1({Key? key}) : super(key: key);",
 
       "\t@override",
       "\tWidget build(BuildContext context, WidgetRef ref) {",
@@ -19,13 +19,13 @@
     "prefix": "stfulHookConsumer",
     "description": "Create a StatefulHookConsumerWidget",
     "body": [
-      "class ${1:name} extends StatefulHookConsumerWidget {",
-      "\tconst ${1:name}({Key? key}) : super(key: key);\n",
+      "class $1 extends StatefulHookConsumerWidget {",
+      "\tconst $1({Key? key}) : super(key: key);\n",
 		  "\t@override",
-		  "\tConsumerState<ConsumerStatefulWidget> createState() => _${1:name}State();",
+		  "\tConsumerState<ConsumerStatefulWidget> createState() => _$1State();",
 		  "}",
 	
-		  "class _${1:name}State extends ConsumerState<${1:name}> {",
+		  "class _$1State extends ConsumerState<$1> {",
 	
 		  "\t@override",
 		  "\tWidget build(BuildContext context) {",
