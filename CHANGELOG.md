@@ -16,7 +16,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Fix
 
-- Added Constructor with `key` to `ConsumerStatefulWidget`.
+- Add Constructor with `key` to `ConsumerStatefulWidget`.
 
 ### [1.0.2]
 
