@@ -12,7 +12,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Update
 
-- Replaced `hookConsumer` prefix with `stlessHookConsumer`.
+- Replace `hookConsumer` prefix with `stlessHookConsumer`.
 
 ### Fix
 
