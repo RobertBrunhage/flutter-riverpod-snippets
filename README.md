@@ -30,9 +30,24 @@ snippets such as `provider`.
 | `stateNotifier`                | Creates a class that extends StateNotifier and allows you to edit the types |
 | `listen`                       | Creates a Provider Listenable                                               |
 
-## Requirements
+## Contributing
+Feel free to open PRs for small issues such as typos. For large issues or features, please open an issue first.
 
-Vscode: ^1.57.1
+### How to do it
+First fork the repo on [GitHub](https://github.com/RobertBrunhage/flutter-riverpod-snippets).
+```
+git clone <your-forked-repo>
+
+git switch -c my-fix
+# fix some code...
+
+git commit -m "Fix typo in readme"
+git push origin my-fix
+```
+
+The commit naming follows [this structure](https://chris.beams.io/posts/git-commit/)
+
+Add the changes done to `CHANGELOG.md` and update the version in `package.json`
 
 ## Release Notes
 
