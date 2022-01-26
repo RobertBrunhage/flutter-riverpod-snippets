@@ -4,6 +4,20 @@ All notable changes to the **flutter-riverpod-snippets** extension will be docum
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### [1.1.0]
+
+### Add
+
+- `StatefulHookConsumerWidget`.
+
+### Update
+
+- Replaced `hookConsumer` prefix with `stlessHookConsumer`.
+
+### Fix
+
+- Added Constructor with `key` to `ConsumerStatefulWidget`.
+
 ### [1.0.2]
 
 ### Fix
