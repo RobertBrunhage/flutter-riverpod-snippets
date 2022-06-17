@@ -7,7 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Fix
 
-- fixing `listen` snippet
+- Fix `listen` snippet to use previous & next
 
 ### [1.1.0]
 
