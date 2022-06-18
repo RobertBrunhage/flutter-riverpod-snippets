@@ -4,8 +4,9 @@
     "prefix": "listen",
     "description": "Create a provider listenable",
     "body": [
-      "ref.listen<$1>($2, (value) { ", 
-      "\t$3", 
-      "});"]
+      "ref.listen<$1>($2, (previous, next) { ",
+      "\t$3",
+      "});"
+    ]
   }
 }

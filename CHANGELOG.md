@@ -3,6 +3,11 @@
 All notable changes to the **flutter-riverpod-snippets** extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### [1.1.1]
+
+### Fix
+
+- Fix `listen` snippet to use previous & next
 
 ### [1.1.0]
 
