@@ -5,7 +5,7 @@
     "description": "Create a ConsumerStatelessWidget",
     "body": [
       "class $1 extends ConsumerWidget {",
-      "\tconst $1({Key? key}) : super(key: key);\n",
+      "\tconst $1({super.key});\n",
       "\t@override",
       "\tWidget build(BuildContext context, WidgetRef ref) {",
       "\t\treturn Container();",
@@ -19,7 +19,7 @@
     "description": "Create a ConsumerStatefulWidget",
     "body": [
       "class $1 extends ConsumerStatefulWidget {",
-      "\tconst $1({Key? key}) : super(key: key);\n",
+      "\tconst $1({super.key});\n",
       "\t@override",
       "\tConsumerState<ConsumerStatefulWidget> createState() => _$1State();",
       "}\n",
