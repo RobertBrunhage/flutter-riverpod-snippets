@@ -29,6 +29,14 @@ snippets such as `provider`.
 | `stateNotifierProviderFamily`  | Creates a StateNotifierProvider with the family modifier                    |
 | `stateNotifier`                | Creates a class that extends StateNotifier and allows you to edit the types |
 | `listen`                       | Creates a Provider Listenable                                               |
+| `riverpod`                     | Creates a simple Provider                                                   |
+| `riverpodKeepAlive`            | Creates a simple keep alive Provider                                        |
+| `riverpodFuture`               | Creates a FutureProvider                                                    |
+| `riverpodFutureKeepAlive`      | Creates a keep alive FutureProvider                                         |
+| `riverpodClass`                | Creates a class Provider                                                    |
+| `riverpodClassKeepAlive`       | Creates a keep alive class Provider                                         |
+| `riverpodAsyncClass`           | Creates an async class Provider                                             |
+| `riverpodAsyncClassKeepAlive`  | Creates a keep alive async class Provider                                   |
 
 ## Contributing
 Feel free to open PRs for small issues such as typos. For large issues or features, please open an issue first.

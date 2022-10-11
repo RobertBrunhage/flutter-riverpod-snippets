@@ -2,7 +2,7 @@
     "Riverpod: simple instance": {
         "scope": "dart",
 		"prefix": "riverpod",
-		"description": "Create a simple Provider",
+		"description": "Creates a simple Provider",
 		"body": [
 			"@riverpod",
 			"$1 $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
@@ -13,7 +13,7 @@
 	"Riverpod: simple keep alive instance": {
         "scope": "dart",
 		"prefix": "riverpodKeepAlive",
-		"description": "Create a simple keep alive Provider",
+		"description": "Creates a simple keep alive Provider",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"$1 $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
@@ -24,7 +24,7 @@
 	"Riverpod: future instance": {
         "scope": "dart",
 		"prefix": "riverpodFuture",
-		"description": "Create a FutureProvider",
+		"description": "Creates a FutureProvider",
 		"body": [
 			"@riverpod",
 			"Future<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) async {",
@@ -35,7 +35,7 @@
 	"Riverpod: keep alive future instance": {
         "scope": "dart",
 		"prefix": "riverpodFutureKeepAlive",
-		"description": "Create a keep alive FutureProvider",
+		"description": "Creates a keep alive FutureProvider",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"Future<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) async {",
@@ -46,7 +46,7 @@
 	"Riverpod: class": {
         "scope": "dart",
 		"prefix": "riverpodClass",
-		"description": "Create a class Provider",
+		"description": "Creates a class Provider",
 		"body": [
 			"@riverpod",
 			"class $1 extends _$$1 {",
@@ -60,7 +60,7 @@
 	"Riverpod: keep alive class": {
         "scope": "dart",
 		"prefix": "riverpodClassKeepAlive",
-		"description": "Create a keep alive class Provider",
+		"description": "Creates a keep alive class Provider",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"class $1 extends _$$1 {",
@@ -74,7 +74,7 @@
 	"Riverpod: async class": {
         "scope": "dart",
 		"prefix": "riverpodAsyncClass",
-		"description": "Create an async class Provider",
+		"description": "Creates an async class Provider",
 		"body": [
 			"@riverpod",
 			"class $1 extends _$$1 {",
@@ -88,7 +88,7 @@
 	"Riverpod: keep alive async class": {
         "scope": "dart",
 		"prefix": "riverpodAsyncClassKeepAlive",
-		"description": "Create a keep alive async class Provider",
+		"description": "Creates a keep alive async class Provider",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"class $1 extends _$$1 {",
