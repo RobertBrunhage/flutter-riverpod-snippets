@@ -5,7 +5,7 @@
     "description": "Create a HookConsumerWidget",
     "body": [
       "class $1 extends HookConsumerWidget {",
-      "\tconst $1({Key? key}) : super(key: key);",
+      "\tconst $1({super.key});",
 
       "\t@override",
       "\tWidget build(BuildContext context, WidgetRef ref) {",
@@ -20,7 +20,7 @@
     "description": "Create a StatefulHookConsumerWidget",
     "body": [
       "class $1 extends StatefulHookConsumerWidget {",
-      "\tconst $1({Key? key}) : super(key: key);\n",
+      "\tconst $1({super.key});\n",
 		  "\t@override",
 		  "\tConsumerState<ConsumerStatefulWidget> createState() => _$1State();",
 		  "}",
