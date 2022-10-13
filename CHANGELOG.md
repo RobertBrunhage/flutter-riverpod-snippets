@@ -3,6 +3,12 @@
 All notable changes to the **flutter-riverpod-snippets** extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### [1.2.0]
+
+### Add
+- Support for `Riverpod` **v2.0** annotation syntax
+- `riverpod`, `riverpodKeepAlive`, `riverpodFuture`, `riverpodFutureKeepAlive`, `riverpodClass`, `riverpodClassKeepAlive`, `riverpodAsyncClass`, `riverpodAsyncClassKeepAlive`
+
 ### [1.1.2]
 
 ### Update
