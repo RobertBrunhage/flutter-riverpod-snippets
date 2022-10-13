@@ -6,8 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### [1.2.0]
 
 ### Add
-- Support for `Riverpod` **v2.0** annotation syntax
+- Support for `Riverpod` **v2.0**
 - `riverpod`, `riverpodKeepAlive`, `riverpodFuture`, `riverpodFutureKeepAlive`, `riverpodClass`, `riverpodClassKeepAlive`, `riverpodAsyncClass`, `riverpodAsyncClassKeepAlive`, `riverpodPart`
+- `asyncNotifierProvider`, `asyncNotifierProviderFamily`, `asyncNotifier`, `asyncNotifierFamily`, `notifierProvider`, `notifierProviderFamily`, `notifier`, `notifierFamily`
 
 ### [1.1.2]
 

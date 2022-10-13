@@ -28,6 +28,14 @@ snippets such as `provider`.
 | `stateNotifierProvider`        | Creates a StateNotifier provider                                            |
 | `stateNotifierProviderFamily`  | Creates a StateNotifierProvider with the family modifier                    |
 | `stateNotifier`                | Creates a class that extends StateNotifier and allows you to edit the types |
+| `asyncNotifierProvider`        | Create an AsyncNotifierProvider                                             |
+| `asyncNotifierProviderFamily`  | Create an AsyncNotifierProvider with Family Modifier                        |
+| `asyncNotifier`                | Create an AsyncNotifier class                                               |
+| `asyncNotifierFamily`          | Create an AsyncNotifier with Family Parameter                               |
+| `notifierProvider`             | Create a NotifierProvider                                                   |
+| `notifierProviderFamily`       | Create a NotifierProvider with Family Modifier                              |
+| `notifier`                     | Create a Notifier class                                                     |
+| `notifierFamily`               | Create a Notifier with Family Parameter                                     |
 | `listen`                       | Creates a Provider Listenable                                               |
 | `riverpod`                     | Creates a simple Provider                                                   |
 | `riverpodKeepAlive`            | Creates a simple keep alive Provider                                        |
