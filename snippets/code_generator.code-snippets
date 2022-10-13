@@ -1,4 +1,12 @@
 {
+	"Riverpod: part statement": {
+		"scope": "dart",
+		"prefix": "riverpodPart",
+		"description": "Create a part statement for Riverpod",
+		"body": [
+			"part '${TM_FILENAME_BASE}.g.dart';",
+		]
+	},
     "Riverpod: simple instance": {
         "scope": "dart",
 		"prefix": "riverpod",

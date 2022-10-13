@@ -7,7 +7,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Add
 - Support for `Riverpod` **v2.0** annotation syntax
-- `riverpod`, `riverpodKeepAlive`, `riverpodFuture`, `riverpodFutureKeepAlive`, `riverpodClass`, `riverpodClassKeepAlive`, `riverpodAsyncClass`, `riverpodAsyncClassKeepAlive`
+- `riverpod`, `riverpodKeepAlive`, `riverpodFuture`, `riverpodFutureKeepAlive`, `riverpodClass`, `riverpodClassKeepAlive`, `riverpodAsyncClass`, `riverpodAsyncClassKeepAlive`, `riverpodPart`
 
 ### [1.1.2]
 

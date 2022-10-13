@@ -37,6 +37,7 @@ snippets such as `provider`.
 | `riverpodClassKeepAlive`       | Creates a keep alive class Provider                                         |
 | `riverpodAsyncClass`           | Creates an async class Provider                                             |
 | `riverpodAsyncClassKeepAlive`  | Creates a keep alive async class Provider                                   |
+| `riverpodPart`                 | Create a part statement for Riverpod                                        |
 
 ## Contributing
 Feel free to open PRs for small issues such as typos. For large issues or features, please open an issue first.
