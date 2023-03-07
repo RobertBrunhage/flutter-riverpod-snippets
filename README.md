@@ -36,10 +36,10 @@ snippets such as `provider`.
 | `notifierProviderFamily`       | Create a NotifierProvider with Family Modifier                              |
 | `notifier`                     | Create a Notifier class                                                     |
 | `notifierFamily`               | Create a Notifier with Family Parameter                                     |
-| `streamNotifierProvider`        | Create an StreamNotifierProvider                                             |
-| `streamNotifierProviderFamily`  | Create an StreamNotifierProvider with Family Modifier                        |
-| `streamNotifier`                | Create an StreamNotifier class                                               |
-| `streamNotifierFamily`          | Create an StreamNotifier with Family Parameter                               |
+| `streamNotifierProvider`        | Create an StreamNotifierProvider                                           |
+| `streamNotifierProviderFamily`  | Create an StreamNotifierProvider with Family Modifier                      |
+| `streamNotifier`                | Create an StreamNotifier class                                             |
+| `streamNotifierFamily`          | Create an StreamNotifier with Family Parameter                             |
 | `listen`                       | Creates a Provider Listenable                                               |
 | `riverpod`                     | Creates a simple Provider                                                   |
 | `riverpodKeepAlive`            | Creates a simple keep alive Provider                                        |
@@ -51,8 +51,8 @@ snippets such as `provider`.
 | `riverpodClassKeepAlive`       | Creates a keep alive class Provider                                         |
 | `riverpodAsyncClass`           | Creates an async class Provider                                             |
 | `riverpodAsyncClassKeepAlive`  | Creates a keep alive async class Provider                                   |
-| `riverpodStreamClass`           | Creates an stream class Provider                                             |
-| `riverpodStreamClassKeepAlive`  | Creates a keep alive stream class Provider                                   |
+| `riverpodStreamClass`           | Creates an stream class Provider                                           |
+| `riverpodStreamClassKeepAlive`  | Creates a keep alive stream class Provider                                 |
 | `riverpodPart`                 | Create a part statement for Riverpod                                        |
 
 ## Contributing
