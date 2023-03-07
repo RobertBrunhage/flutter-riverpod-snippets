@@ -36,6 +36,10 @@ snippets such as `provider`.
 | `notifierProviderFamily`       | Create a NotifierProvider with Family Modifier                              |
 | `notifier`                     | Create a Notifier class                                                     |
 | `notifierFamily`               | Create a Notifier with Family Parameter                                     |
+| `streamNotifierProvider`        | Create an StreamNotifierProvider                                             |
+| `streamNotifierProviderFamily`  | Create an StreamNotifierProvider with Family Modifier                        |
+| `streamNotifier`                | Create an StreamNotifier class                                               |
+| `streamNotifierFamily`          | Create an StreamNotifier with Family Parameter                               |
 | `listen`                       | Creates a Provider Listenable                                               |
 | `riverpod`                     | Creates a simple Provider                                                   |
 | `riverpodKeepAlive`            | Creates a simple keep alive Provider                                        |

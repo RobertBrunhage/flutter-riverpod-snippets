@@ -1,0 +1,18 @@
+{
+    "Riverpod: StreamNotifier Provider": {
+        "scope": "dart",
+		"prefix": "streamNotifierProvider",
+		"description": "Create an StreamNotifierProvider",
+		"body": [
+			"final $1Provider = StreamNotifierProvider<$2, $3>($2.new);",
+		]
+	},
+	"Riverpod: StreamNotifier Provider with Family": {
+        "scope": "dart",
+		"prefix": "streamNotifierProviderFamily",
+		"description": "Create an StreamNotifierProvider with Family Modifier",
+		"body": [
+			"final $1Provider = StreamNotifierProviderFamily<$2, $3, $4>($2.new);",
+		]
+	},
+}

@@ -4,6 +4,13 @@ All notable changes to the **flutter-riverpod-snippets** extension will be docum
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### [1.2.2]
+
+### Add
+- Support for `Riverpod` **v2.3**
+- `riverpodStream`, `riverpodStreamKeepAlive`, `riverpodStreamClass`, `riverpodStreamClassKeepAlive`
+- `streamNotifierProvider`, `streamNotifierProviderFamily`, `streamNotifier`, `streamNotifierFamily`,
+
 ### [1.2.1]
 - fix `Notifier`, `AsyncNotifier` and `ChangeNotifier` snippets
 ### [1.2.0]
