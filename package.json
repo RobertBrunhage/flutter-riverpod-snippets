@@ -3,7 +3,7 @@
   "displayName": "Flutter Riverpod Snippets",
   "description": "Quick and easy Flutter Riverpod snippets",
   "icon": "logo.jpg",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "publisher": "robert-brunhage",
   "homepage": "https://github.com/RobertBrunhage/flutter-riverpod-snippets",
   "repository": {
@@ -39,6 +39,14 @@
       {
         "language": "dart",
         "path": "./snippets/notifier.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/stream_notifier_provider.code-snippets"
+      },
+      {
+        "language": "dart",
+        "path": "./snippets/stream_notifier.code-snippets"
       },
       {
         "language": "dart",
