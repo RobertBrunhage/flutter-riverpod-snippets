@@ -45,10 +45,14 @@ snippets such as `provider`.
 | `riverpodKeepAlive`            | Creates a simple keep alive Provider                                        |
 | `riverpodFuture`               | Creates a FutureProvider                                                    |
 | `riverpodFutureKeepAlive`      | Creates a keep alive FutureProvider                                         |
+| `riverpodStream`               | Creates a StreamProvider                                                    |
+| `riverpodStreamKeepAlive`      | Creates a keep alive StreamProvider                                         |
 | `riverpodClass`                | Creates a class Provider                                                    |
 | `riverpodClassKeepAlive`       | Creates a keep alive class Provider                                         |
 | `riverpodAsyncClass`           | Creates an async class Provider                                             |
 | `riverpodAsyncClassKeepAlive`  | Creates a keep alive async class Provider                                   |
+| `riverpodStreamClass`           | Creates an stream class Provider                                             |
+| `riverpodStreamClassKeepAlive`  | Creates a keep alive stream class Provider                                   |
 | `riverpodPart`                 | Create a part statement for Riverpod                                        |
 
 ## Contributing
