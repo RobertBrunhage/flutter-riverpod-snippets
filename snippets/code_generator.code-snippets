@@ -35,7 +35,7 @@
 		"description": "Creates a FutureProvider",
 		"body": [
 			"@riverpod",
-			"FutureOr<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
+			"Future<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) async {",
 			"\treturn $3;",
 			"}",
 		]
@@ -46,7 +46,7 @@
 		"description": "Creates a keep alive FutureProvider",
 		"body": [
 			"@Riverpod(keepAlive: true)",
-			"FutureOr<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
+			"Future<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) async {",
 			"\treturn $3;",
 			"}",
 		]
@@ -109,7 +109,7 @@
 			"@riverpod",
 			"class $1 extends _$$1 {",
 			"\t@override",
-			"\tFutureOr<$2> build() {",
+			"\tFuture<$2> build() async {",
 			"\t\treturn $3;",
 			"\t}",
 			"}",
@@ -123,7 +123,7 @@
 			"@Riverpod(keepAlive: true)",
 			"class $1 extends _$$1 {",
 			"\t@override",
-			"\tFutureOr<$2> build() {",
+			"\tFuture<$2> build() async {",
 			"\t\treturn $3;",
 			"\t}",
 			"}",

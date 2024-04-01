@@ -6,7 +6,7 @@
 		"body": [
 			"class $1Notifier extends AsyncNotifier<$2> {",
 			"\t@override",
-			"\tFutureOr<$2> build() {",
+			"\tFuture<$2> build() async {",
 			"\t\treturn $3;",
 			"\t}",
 			"}"
@@ -19,7 +19,7 @@
 		"body": [
 			"class $1Notifier extends FamilyAsyncNotifier<$2, $3> {",
 			"\t@override",
-			"\tFutureOr<$2> build($3 arg) {",
+			"\tFuture<$2> build($3 arg) async {",
 			"\t\treturn $4;",
 			"\t}",
 			"}"
