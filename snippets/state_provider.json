@@ -6,7 +6,7 @@
     "body": [
       "final $1Provider = StateProvider<$2>((ref) {",
       "\treturn $3;",
-      "});",
+      "});"
     ]
   },
   "State Provider Family": {

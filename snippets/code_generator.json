@@ -1,0 +1,158 @@
+{
+  "Riverpod: part statement": {
+    "scope": "dart",
+    "prefix": "riverpodPart",
+    "description": "Create a part statement for Riverpod",
+    "body": ["part '${TM_FILENAME_BASE}.g.dart';"]
+  },
+  "Riverpod: simple instance": {
+    "scope": "dart",
+    "prefix": "riverpod",
+    "description": "Creates a simple Provider",
+    "body": [
+      "@riverpod",
+      "$1 $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
+      "\treturn $3;",
+      "}"
+    ]
+  },
+  "Riverpod: simple keep alive instance": {
+    "scope": "dart",
+    "prefix": "riverpodKeepAlive",
+    "description": "Creates a simple keep alive Provider",
+    "body": [
+      "@Riverpod(keepAlive: true)",
+      "$1 $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
+      "\treturn $3;",
+      "}"
+    ]
+  },
+  "Riverpod: future instance": {
+    "scope": "dart",
+    "prefix": "riverpodFuture",
+    "description": "Creates a FutureProvider",
+    "body": [
+      "@riverpod",
+      "FutureOr<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
+      "\treturn $3;",
+      "}"
+    ]
+  },
+  "Riverpod: keep alive future instance": {
+    "scope": "dart",
+    "prefix": "riverpodFutureKeepAlive",
+    "description": "Creates a keep alive FutureProvider",
+    "body": [
+      "@Riverpod(keepAlive: true)",
+      "FutureOr<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
+      "\treturn $3;",
+      "}"
+    ]
+  },
+  "Riverpod: stream instance": {
+    "scope": "dart",
+    "prefix": "riverpodStream",
+    "description": "Creates a StreamProvider",
+    "body": [
+      "@riverpod",
+      "Stream<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
+      "\treturn $3;",
+      "}"
+    ]
+  },
+  "Riverpod: keep alive stream instance": {
+    "scope": "dart",
+    "prefix": "riverpodStreamKeepAlive",
+    "description": "Creates a keep alive StreamProvider",
+    "body": [
+      "@Riverpod(keepAlive: true)",
+      "Stream<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
+      "\treturn $3;",
+      "}"
+    ]
+  },
+  "Riverpod: class": {
+    "scope": "dart",
+    "prefix": "riverpodClass",
+    "description": "Creates a class Provider",
+    "body": [
+      "@riverpod",
+      "class $1 extends _$$1 {",
+      "\t@override",
+      "\t$2 build() {",
+      "\t\treturn $3;",
+      "\t}",
+      "}"
+    ]
+  },
+  "Riverpod: keep alive class": {
+    "scope": "dart",
+    "prefix": "riverpodClassKeepAlive",
+    "description": "Creates a keep alive class Provider",
+    "body": [
+      "@Riverpod(keepAlive: true)",
+      "class $1 extends _$$1 {",
+      "\t@override",
+      "\t$2 build() {",
+      "\t\treturn $3;",
+      "\t}",
+      "}"
+    ]
+  },
+  "Riverpod: async class": {
+    "scope": "dart",
+    "prefix": "riverpodAsyncClass",
+    "description": "Creates an async class Provider",
+    "body": [
+      "@riverpod",
+      "class $1 extends _$$1 {",
+      "\t@override",
+      "\tFutureOr<$2> build() {",
+      "\t\treturn $3;",
+      "\t}",
+      "}"
+    ]
+  },
+  "Riverpod: keep alive async class": {
+    "scope": "dart",
+    "prefix": "riverpodAsyncClassKeepAlive",
+    "description": "Creates a keep alive async class Provider",
+    "body": [
+      "@Riverpod(keepAlive: true)",
+      "class $1 extends _$$1 {",
+      "\t@override",
+      "\tFutureOr<$2> build() {",
+      "\t\treturn $3;",
+      "\t}",
+      "}"
+    ]
+  },
+  "Riverpod: stream class": {
+    "scope": "dart",
+    "prefix": "riverpodStreamClass",
+    "description": "Creates an stream class Provider",
+    "body": [
+      "@riverpod",
+      "class $1 extends _$$1 {",
+      "\t@override",
+      "\tStream<$2> build() {",
+      "\t\treturn $3;",
+      "\t}",
+      "}"
+    ]
+  },
+  "Riverpod: keep alive stream class": {
+    "scope": "dart",
+    "prefix": "riverpodStreamClassKeepAlive",
+    "description": "Creates a keep alive stream class Provider",
+    "body": [
+      "@Riverpod(keepAlive: true)",
+      "class $1 extends _$$1 {",
+      "\t@override",
+      "\tStream<$2> build() {",
+      "\t\treturn $3;",
+      "\t}",
+      "}"
+    ]
+  }
+}

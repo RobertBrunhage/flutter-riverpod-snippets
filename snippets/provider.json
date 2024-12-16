@@ -3,11 +3,7 @@
     "scope": "dart",
     "prefix": "provider",
     "description": "Create a simple Provider",
-    "body": [
-      "final $1Provider = Provider<$2>((ref) {",
-      "\treturn $3;",
-      "});",
-    ]
+    "body": ["final $1Provider = Provider<$2>((ref) {", "\treturn $3;", "});"]
   },
   "Provider with Family": {
     "scope": "dart",
