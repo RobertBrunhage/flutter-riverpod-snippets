@@ -1,5 +1,5 @@
 {
-    "State Notifier": {
+    "Change Notifier": {
         "scope": "dart",
         "prefix": "changeNotifier",
         "description": "Create a ChangeNotifier with Editable Parameter",

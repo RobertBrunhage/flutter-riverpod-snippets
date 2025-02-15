@@ -1,5 +1,5 @@
 {
-  "State Provider": {
+  "Stream Provider": {
     "scope": "dart",
     "prefix": "streamProvider",
     "description": "Create a StreamProvider",
@@ -9,7 +9,7 @@
       "});"
     ]
   },
-  "State Provider Family": {
+  "Stream Provider Family": {
     "scope": "dart",
     "prefix": "streamProviderFamily",
     "description": "Create a StreamProvider with Family modifier",
