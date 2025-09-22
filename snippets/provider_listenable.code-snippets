@@ -1,8 +1,8 @@
 {
-  "Provider Listenable": {
+  "Riverpod: Listener": {
     "scope": "dart",
     "prefix": "listen",
-    "description": "Create a provider listenable",
+    "description": "Listen to a provider",
     "body": [
       "ref.listen<$1>($2, (previous, next) { ",
       "\t$3",
