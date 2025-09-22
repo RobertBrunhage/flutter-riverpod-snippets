@@ -1,21 +1,31 @@
 {
-  "State Provider": {
+  "Riverpod: StreamProvider": {
     "scope": "dart",
     "prefix": "streamProvider",
-    "description": "Create a StreamProvider",
+    "description": "Create an autodispose StreamProvider",
     "body": [
-      "final $1Provider = StreamProvider<$2>((ref) async* {",
-      "\treturn $3;",
+      "final $1Provider = StreamProvider.autoDispose<$2>((ref) {",
+      "\t$3",
       "});"
     ]
   },
-  "State Provider Family": {
+  "Riverpod: Keep Alive StreamProvider": {
+    "scope": "dart",
+    "prefix": "streamProviderKeepAlive",
+    "description": "Create a non-autodispose StreamProvider",
+    "body": [
+      "final $1Provider = StreamProvider<$2>((ref) {",
+      "\t$3",
+      "});"
+    ]
+  },
+  "Riverpod: .family StreamProvider": {
     "scope": "dart",
     "prefix": "streamProviderFamily",
-    "description": "Create a StreamProvider with Family modifier",
+    "description": "Create an autodispose family StreamProvider",
     "body": [
-      "final $1Provider = StreamProvider.family<$2, $3>((ref, $4) async* {",
-      "\treturn $5;",
+      "final $1Provider = StreamProvider.autoDispose.family<$2, $3>((ref, $4) {",
+      "\t$5",
       "});"
     ]
   }
