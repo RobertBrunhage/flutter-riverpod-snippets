@@ -1,5 +1,5 @@
 {
-  "Riverpod: Future Provider": {
+  "Riverpod: FutureProvider": {
     "scope": "dart",
     "prefix": "futureProvider",
     "description": "Create an autodispose FutureProvider",
@@ -9,7 +9,7 @@
       "});"
     ]
   },
-  "Riverpod: Keep Alive Future Provider": {
+  "Riverpod: Keep Alive FutureProvider": {
     "scope": "dart",
     "prefix": "futureProviderKeepAlive",
     "description": "Create a non-autodispose FutureProvider",
@@ -19,7 +19,7 @@
       "});"
     ]
   },
-  "Riverpod: .family Future Provider": {
+  "Riverpod: .family FutureProvider": {
     "scope": "dart",
     "prefix": "futureProviderFamily",
     "description": "Create an autodispose family FutureProvider",

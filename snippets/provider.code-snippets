@@ -1,21 +1,31 @@
 {
-  "Provider": {
+  "Riverpod: Provider": {
     "scope": "dart",
     "prefix": "provider",
-    "description": "Create a simple Provider",
+    "description": "Create an autodispose Provider",
     "body": [
-      "final $1Provider = Provider<$2>((ref) {",
-      "\treturn $3;",
+      "final $1Provider = Provider.autoDispose<$2>((ref) {",
+      "\t$3",
       "});",
     ]
   },
-  "Provider with Family": {
+  "Riverpod: Keep Alive Provider": {
+    "scope": "dart",
+    "prefix": "provider",
+    "description": "Create a non-autodispose Provider",
+    "body": [
+      "final $1Provider = Provider<$2>((ref) {",
+      "\t$3",
+      "});",
+    ]
+  },
+  "Riverpod: .family Provider": {
     "scope": "dart",
     "prefix": "providerFamily",
-    "description": "Create a simple Provider with Family modifier",
+    "description": "Create an autodispose family Provider",
     "body": [
-      "final $1Provider = Provider.family<$2, $3>((ref, $4) {",
-      "\treturn $5;",
+      "final $1Provider = Provider.autoDispose.family<$2, $3>((ref, $4) {",
+      "\t$5",
       "});"
     ]
   }
