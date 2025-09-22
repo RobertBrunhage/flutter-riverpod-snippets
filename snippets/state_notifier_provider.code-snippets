@@ -9,9 +9,9 @@
       "});"
     ]
   },
-  "Legacy: Always-Alive StateNotifier Provider": {
+  "Legacy: Keep Alive StateNotifier Provider": {
     "scope": "dart",
-    "prefix": "alwaysAliveStateNotifierProvider",
+    "prefix": "stateNotifierProviderKeepAlive",
     "description": "Create a non-autodispose StateNotifierProvider",
     "body": [
       "final $1Provider = StateNotifierProvider<$2, $3>((ref) {",

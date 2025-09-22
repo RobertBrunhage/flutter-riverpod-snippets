@@ -1,21 +1,31 @@
 {
-  "State Provider": {
+  "Legacy: State Provider": {
     "scope": "dart",
     "prefix": "stateProvider",
-    "description": "Create a StateProvider",
+    "description": "Create an autodispose StateProvider",
     "body": [
-      "final $1Provider = StateProvider<$2>((ref) {",
-      "\treturn $3;",
+      "final $1Provider = StateProvider.autoDispose<$2>((ref) {",
+      "\t$3",
       "});",
     ]
   },
-  "State Provider Family": {
+  "Legacy: Keep Alive State Provider": {
+    "scope": "dart",
+    "prefix": "stateProvider",
+    "description": "Create a non-autodispose StateProvider",
+    "body": [
+      "final $1Provider = StateProvider<$2>((ref) {",
+      "\t$3",
+      "});",
+    ]
+  },
+  "Legacy: State Provider Family": {
     "scope": "dart",
     "prefix": "stateProviderFamily",
-    "description": "Create a StateProvider with Family modifier",
+    "description": "Create an autodispose family StateProvider",
     "body": [
-      "final $1Provider = StateProvider.family<$2, $3>((ref, $4) {",
-      "\treturn $5;",
+      "final $1Provider = StateProvider.autoDispose.family<$2, $3>((ref, $4) {",
+      "\t$5",
       "});"
     ]
   }
