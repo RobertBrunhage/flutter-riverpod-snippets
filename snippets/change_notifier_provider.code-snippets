@@ -9,9 +9,9 @@
       "});"
     ]
   },
-  "Legacy: Always-Alive ChangeNotifier Provider": {
+  "Legacy: Keep Alive ChangeNotifier Provider": {
     "scope": "dart",
-    "prefix": "alwaysAliveChangeNotifierProvider",
+    "prefix": "changeNotifierProviderKeepAlive",
     "description": "Create a non-autodispose ChangeNotifierProvider",
     "body": [
       "final $1Provider = ChangeNotifierProvider<$2>((ref) {",

@@ -1,5 +1,5 @@
 {
-	"Riverpod: AsyncNotifier Provider with .autoDispose": {
+	"Riverpod: AsyncNotifier Provider": {
 		"scope": "dart",
 		"prefix": "asyncNotifierProvider",
 		"description": "Create an autodispose AsyncNotifierProvider",
@@ -7,15 +7,15 @@
 			"final $1Provider = AsyncNotifierProvider.autoDispose<$2, $3>($2.new);",
 		]
 	},
-	"Riverpod: AsyncNotifier Provider": {
+	"Riverpod: Keep Alive AsyncNotifier Provider": {
 		"scope": "dart",
-		"prefix": "alwaysAliveAsyncNotifierProvider",
+		"prefix": "asyncNotifierProviderKeepAlive",
 		"description": "Create a non-autodispose AsyncNotifierProvider",
 		"body": [
 			"final $1Provider = AsyncNotifierProvider<$2, $3>($2.new);",
 		]
 	},
-	"Riverpod: AsyncNotifier Provider with .family and .autoDispose": {
+	"Riverpod: .family AsyncNotifier Provider": {
 		"scope": "dart",
 		"prefix": "asyncNotifierProviderFamily",
 		"description": "Create an autodispose family AsyncNotifierProvider",

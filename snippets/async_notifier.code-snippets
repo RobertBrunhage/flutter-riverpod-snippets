@@ -7,7 +7,7 @@
 			"class $1Notifier extends AsyncNotifier<$2> {",
 			"\t@override",
 			"\tFutureOr<$2> build() {",
-			"\t\treturn $3;",
+			"\t\t$3",
 			"\t}",
 			"}"
 		]
@@ -22,7 +22,7 @@
 			"\tfinal $3 $4;",
 			"\t@override",
 			"\tFutureOr<$2> build() {",
-			"\t\treturn $5;",
+			"\t\t$5",
 			"\t}",
 			"}"
 		]
