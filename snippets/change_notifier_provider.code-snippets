@@ -1,21 +1,31 @@
 {
-  "Change Notifier Provider": {
+  "Legacy: ChangeNotifier Provider": {
     "scope": "dart",
     "prefix": "changeNotifierProvider",
-    "description": "Create a ChangeNotifierProvider",
+    "description": "Create an autodispose ChangeNotifierProvider",
     "body": [
-      "final $1Provider = ChangeNotifierProvider<$2>((ref) {",
-      "\treturn $3;",
+      "final $1Provider = ChangeNotifierProvider.autoDispose<$2>((ref) {",
+      "\treturn $2();",
       "});"
     ]
   },
-  "Change Notifier Provider with Family": {
+  "Legacy: Always-Alive ChangeNotifier Provider": {
+    "scope": "dart",
+    "prefix": "alwaysAliveChangeNotifierProvider",
+    "description": "Create a non-autodispose ChangeNotifierProvider",
+    "body": [
+      "final $1Provider = ChangeNotifierProvider<$2>((ref) {",
+      "\treturn $2();",
+      "});"
+    ]
+  },
+  "Legacy: .family ChangeNotifier Provider": {
     "scope": "dart",
     "prefix": "changeNotifierProviderFamily",
-    "description": "Create a ChangeNotifierProvider with Family modifier",
+    "description": "Create an autodispose family ChangeNotifierProvider",
     "body": [
-      "final $1Provider = ChangeNotifierProvider.family<$2, $3>((ref, $4) {",
-      "\treturn $5;",
+      "final $1Provider = ChangeNotifierProvider.autoDispose.family<$2, $3>((ref, $4) {",
+      "\treturn $5($4);",
       "});"
     ]
   }

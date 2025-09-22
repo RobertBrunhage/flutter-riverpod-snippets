@@ -1,12 +1,24 @@
 {
-  "State Notifier": {
+  "Legacy: State Notifier": {
     "scope": "dart",
     "prefix": "stateNotifier",
-    "description": "Create a StateNotifier with Editable Parameter",
+    "description": "Create a StateNotifier",
     "body": [
       "class $1Notifier extends StateNotifier<$2> {",
       "\t$1Notifier(): super($3);",
       "\t$4",
+      "}"
+    ]
+  },
+  "Legacy: .family State Notifier": {
+    "scope": "dart",
+    "prefix": "stateNotifierFamily",
+    "description": "Create a .family StateNotifier",
+    "body": [
+      "class $1Notifier extends StateNotifier<$2> {",
+      "\t$1Notifier(this.$5): super($3);",
+      "\tfinal $4 $5;",
+      "\t$6",
       "}"
     ]
   }

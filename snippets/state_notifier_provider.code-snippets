@@ -1,21 +1,31 @@
 {
-  "State Notifier Provider": {
+  "Legacy: StateNotifier Provider": {
     "scope": "dart",
     "prefix": "stateNotifierProvider",
-    "description": "Create a StateNotifierProvider",
+    "description": "Create an autodispose StateNotifierProvider",
     "body": [
-      "final $1Provider = StateNotifierProvider<$2>((ref) {",
-      "\treturn $3",
+      "final $1Provider = StateNotifierProvider.autoDispose<$2, $3>((ref) {",
+      "\treturn $2();",
       "});"
     ]
   },
-  "State Notifier Provider with Family": {
+  "Legacy: Always-Alive StateNotifier Provider": {
+    "scope": "dart",
+    "prefix": "alwaysAliveStateNotifierProvider",
+    "description": "Create a non-autodispose StateNotifierProvider",
+    "body": [
+      "final $1Provider = StateNotifierProvider<$2, $3>((ref) {",
+      "\treturn $2();",
+      "});"
+    ]
+  },
+  "Legacy: .family StateNotifier Provider": {
     "scope": "dart",
     "prefix": "stateNotifierProviderFamily",
-    "description": "Create a StateNotifierProvider with Family Modifier",
+    "description": "Create an autodispose family StateNotifierProvider",
     "body": [
-      "final $1Provider = StateNotifierProvider.family<$2, $3>((ref, $4) {",
-      "\treturn $5",
+      "final $1Provider = StateNotifierProvider.autoDispose.family<$2, $3, $4>((ref, $5) {",
+      "\treturn $2($5);",
       "});"
     ]
   }

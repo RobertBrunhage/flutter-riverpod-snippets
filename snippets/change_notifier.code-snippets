@@ -1,8 +1,8 @@
 {
-    "State Notifier": {
+    "Legacy: Change Notifier": {
         "scope": "dart",
         "prefix": "changeNotifier",
-        "description": "Create a ChangeNotifier with Editable Parameter",
+        "description": "Create a ChangeNotifier",
         "body": [
             "class $1Notifier extends ChangeNotifier {",
             "\t$2",
