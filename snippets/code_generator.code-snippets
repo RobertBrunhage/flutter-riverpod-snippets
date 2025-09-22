@@ -1,158 +1,158 @@
 {
-	"Riverpod: part statement": {
+	"Riverpod codegen: part statement": {
 		"scope": "dart",
 		"prefix": "riverpodPart",
-		"description": "Create a part statement for Riverpod",
+		"description": "Create a part statement for Riverpod (codegen)",
 		"body": [
 			"part '${TM_FILENAME_BASE}.g.dart';",
 		]
 	},
-        "Riverpod: simple instance": {
-                "scope": "dart",
+	"Riverpod codegen: Provider": {
+		"scope": "dart",
 		"prefix": "riverpod",
-		"description": "Creates a simple Provider",
+		"description": "Create a Provider (codegen)",
 		"body": [
 			"@riverpod",
-			"$1 $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
-			"\treturn $3;",
+			"$1 $2(Ref ref) {",
+			"\t$3;",
 			"}",
 		]
 	},
-	"Riverpod: simple keep alive instance": {
-        "scope": "dart",
+	"Riverpod codegen: Keep Alive Provider": {
+		"scope": "dart",
 		"prefix": "riverpodKeepAlive",
-		"description": "Creates a simple keep alive Provider",
+		"description": "Create a non-autodispose Provider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
-			"$1 $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
-			"\treturn $3;",
+			"$1 $2(Ref ref) {",
+			"\t$3;",
 			"}",
 		]
 	},
-	"Riverpod: future instance": {
-        "scope": "dart",
+	"Riverpod codegen: FutureProvider": {
+		"scope": "dart",
 		"prefix": "riverpodFuture",
-		"description": "Creates a FutureProvider",
+		"description": "Create a FutureProvider (codegen)",
 		"body": [
 			"@riverpod",
-			"FutureOr<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
-			"\treturn $3;",
+			"FutureOr<$1> $2(Ref ref) {",
+			"\t$3;",
 			"}",
 		]
 	},
-	"Riverpod: keep alive future instance": {
-        "scope": "dart",
+	"Riverpod codegen: Keep Alive FutureProvider": {
+		"scope": "dart",
 		"prefix": "riverpodFutureKeepAlive",
-		"description": "Creates a keep alive FutureProvider",
+		"description": "Create a Keep Alive FutureProvider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
-			"FutureOr<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
-			"\treturn $3;",
+			"FutureOr<$1> $2(Ref ref) {",
+			"\t$3;",
 			"}",
 		]
 	},
-	"Riverpod: stream instance": {
-        "scope": "dart",
+	"Riverpod codegen: StreamProvider": {
+		"scope": "dart",
 		"prefix": "riverpodStream",
-		"description": "Creates a StreamProvider",
+		"description": "Create a StreamProvider (codegen)",
 		"body": [
 			"@riverpod",
-			"Stream<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
-			"\treturn $3;",
+			"Stream<$1> $2(Ref ref) {",
+			"\t$3;",
 			"}",
 		]
 	},
-	"Riverpod: keep alive stream instance": {
-        "scope": "dart",
+	"Riverpod codegen: Keep Alive StreamProvider": {
+		"scope": "dart",
 		"prefix": "riverpodStreamKeepAlive",
-		"description": "Creates a keep alive StreamProvider",
+		"description": "Create a Keep Alive StreamProvider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
-			"Stream<$1> $2(${2/(.*)/${1:/capitalize}/}Ref ref) {",
-			"\treturn $3;",
+			"Stream<$1> $2(Ref ref) {",
+			"\t$3;",
 			"}",
 		]
 	},
-	"Riverpod: class": {
-        "scope": "dart",
+	"Riverpod codegen: Notifier / NotifierProvider": {
+		"scope": "dart",
 		"prefix": "riverpodClass",
-		"description": "Creates a class Provider",
+		"description": "Create a Notifier / NotifierProvider (codegen)",
 		"body": [
 			"@riverpod",
 			"class $1 extends _$$1 {",
 			"\t@override",
 			"\t$2 build() {",
-			"\t\treturn $3;",
+			"\t\t$3;",
 			"\t}",
 			"}",
 		]
 	},
-	"Riverpod: keep alive class": {
-        "scope": "dart",
+	"Riverpod codegen: Keep Alive Notifier / NotifierProvider": {
+		"scope": "dart",
 		"prefix": "riverpodClassKeepAlive",
-		"description": "Creates a keep alive class Provider",
+		"description": "Create a Keep Alive Notifier / NotifierProvider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"class $1 extends _$$1 {",
 			"\t@override",
 			"\t$2 build() {",
-			"\t\treturn $3;",
+			"\t\t$3;",
 			"\t}",
 			"}",
 		]
 	},
-	"Riverpod: async class": {
-        "scope": "dart",
+	"Riverpod codegen: AsyncNotifier / AsyncNotifierProvider": {
+		"scope": "dart",
 		"prefix": "riverpodAsyncClass",
-		"description": "Creates an async class Provider",
+		"description": "Create an AsyncNotifier / AsyncNotifierProvider (codegen)",
 		"body": [
 			"@riverpod",
 			"class $1 extends _$$1 {",
 			"\t@override",
 			"\tFutureOr<$2> build() {",
-			"\t\treturn $3;",
+			"\t\t$3;",
 			"\t}",
 			"}",
 		]
 	},
-	"Riverpod: keep alive async class": {
-        "scope": "dart",
+	"Riverpod codegen: Keep Alive AsyncNotifier / AsyncNotifierProvider": {
+		"scope": "dart",
 		"prefix": "riverpodAsyncClassKeepAlive",
-		"description": "Creates a keep alive async class Provider",
+		"description": "Create a Keep Alive AsyncNotifier / AsyncNotifierProvider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"class $1 extends _$$1 {",
 			"\t@override",
 			"\tFutureOr<$2> build() {",
-			"\t\treturn $3;",
+			"\t\t$3;",
 			"\t}",
 			"}",
 		]
 	},
-	"Riverpod: stream class": {
-        "scope": "dart",
+	"Riverpod codegen: StreamNotifier / StreamNotifierProvider": {
+		"scope": "dart",
 		"prefix": "riverpodStreamClass",
-		"description": "Creates an stream class Provider",
+		"description": "Create an StreamNotifier / StreamNotifierProvider (codegen)",
 		"body": [
 			"@riverpod",
 			"class $1 extends _$$1 {",
 			"\t@override",
 			"\tStream<$2> build() {",
-			"\t\treturn $3;",
+			"\t\t$3;",
 			"\t}",
 			"}",
 		]
 	},
-	"Riverpod: keep alive stream class": {
-        "scope": "dart",
+	"Riverpod codegen: Keep Alive StreamNotifier / StreamNotifierProvider": {
+		"scope": "dart",
 		"prefix": "riverpodStreamClassKeepAlive",
-		"description": "Creates a keep alive stream class Provider",
+		"description": "Create a Keep Alive StreamNotifier / StreamNotifierProvider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"class $1 extends _$$1 {",
 			"\t@override",
 			"\tStream<$2> build() {",
-			"\t\treturn $3;",
+			"\t\t$3;",
 			"\t}",
 			"}",
 		]
