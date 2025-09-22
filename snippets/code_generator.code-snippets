@@ -1,5 +1,5 @@
 {
-	"Riverpod codegen: part statement": {
+	"Riverpod (codegen): part statement": {
 		"scope": "dart",
 		"prefix": "riverpodPart",
 		"description": "Create a part statement for Riverpod (codegen)",
@@ -7,7 +7,7 @@
 			"part '${TM_FILENAME_BASE}.g.dart';",
 		]
 	},
-	"Riverpod codegen: Provider": {
+	"Riverpod (codegen): Provider": {
 		"scope": "dart",
 		"prefix": "riverpod",
 		"description": "Create a Provider (codegen)",
@@ -18,7 +18,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: Keep Alive Provider": {
+	"Riverpod (codegen): Keep Alive Provider": {
 		"scope": "dart",
 		"prefix": "riverpodKeepAlive",
 		"description": "Create a non-autodispose Provider (codegen)",
@@ -29,7 +29,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: FutureProvider": {
+	"Riverpod (codegen): FutureProvider": {
 		"scope": "dart",
 		"prefix": "riverpodFuture",
 		"description": "Create a FutureProvider (codegen)",
@@ -40,7 +40,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: Keep Alive FutureProvider": {
+	"Riverpod (codegen): Keep Alive FutureProvider": {
 		"scope": "dart",
 		"prefix": "riverpodFutureKeepAlive",
 		"description": "Create a Keep Alive FutureProvider (codegen)",
@@ -51,7 +51,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: StreamProvider": {
+	"Riverpod (codegen): StreamProvider": {
 		"scope": "dart",
 		"prefix": "riverpodStream",
 		"description": "Create a StreamProvider (codegen)",
@@ -62,7 +62,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: Keep Alive StreamProvider": {
+	"Riverpod (codegen): Keep Alive StreamProvider": {
 		"scope": "dart",
 		"prefix": "riverpodStreamKeepAlive",
 		"description": "Create a Keep Alive StreamProvider (codegen)",
@@ -73,7 +73,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: Notifier / NotifierProvider": {
+	"Riverpod (codegen): Notifier / NotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodClass",
 		"description": "Create a Notifier / NotifierProvider (codegen)",
@@ -87,7 +87,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: Keep Alive Notifier / NotifierProvider": {
+	"Riverpod (codegen): Keep Alive Notifier / NotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodClassKeepAlive",
 		"description": "Create a Keep Alive Notifier / NotifierProvider (codegen)",
@@ -101,7 +101,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: AsyncNotifier / AsyncNotifierProvider": {
+	"Riverpod (codegen): AsyncNotifier / AsyncNotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodAsyncClass",
 		"description": "Create an AsyncNotifier / AsyncNotifierProvider (codegen)",
@@ -115,7 +115,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: Keep Alive AsyncNotifier / AsyncNotifierProvider": {
+	"Riverpod (codegen): Keep Alive AsyncNotifier / AsyncNotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodAsyncClassKeepAlive",
 		"description": "Create a Keep Alive AsyncNotifier / AsyncNotifierProvider (codegen)",
@@ -129,7 +129,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: StreamNotifier / StreamNotifierProvider": {
+	"Riverpod (codegen): StreamNotifier / StreamNotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodStreamClass",
 		"description": "Create an StreamNotifier / StreamNotifierProvider (codegen)",
@@ -143,7 +143,7 @@
 			"}",
 		]
 	},
-	"Riverpod codegen: Keep Alive StreamNotifier / StreamNotifierProvider": {
+	"Riverpod (codegen): Keep Alive StreamNotifier / StreamNotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodStreamClassKeepAlive",
 		"description": "Create a Keep Alive StreamNotifier / StreamNotifierProvider (codegen)",

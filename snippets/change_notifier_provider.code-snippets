@@ -1,5 +1,5 @@
 {
-  "Legacy: ChangeNotifier Provider": {
+  "Riverpod (legacy): ChangeNotifier Provider": {
     "scope": "dart",
     "prefix": "changeNotifierProvider",
     "description": "Create an autodispose ChangeNotifierProvider",
@@ -9,7 +9,7 @@
       "});"
     ]
   },
-  "Legacy: Keep Alive ChangeNotifier Provider": {
+  "Riverpod (legacy): Keep Alive ChangeNotifier Provider": {
     "scope": "dart",
     "prefix": "changeNotifierProviderKeepAlive",
     "description": "Create a non-autodispose ChangeNotifierProvider",
@@ -19,7 +19,7 @@
       "});"
     ]
   },
-  "Legacy: .family ChangeNotifier Provider": {
+  "Riverpod (legacy): .family ChangeNotifier Provider": {
     "scope": "dart",
     "prefix": "changeNotifierProviderFamily",
     "description": "Create an autodispose family ChangeNotifierProvider",

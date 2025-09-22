@@ -1,5 +1,5 @@
 {
-  "Legacy: State Notifier": {
+  "Riverpod (legacy): State Notifier": {
     "scope": "dart",
     "prefix": "stateNotifier",
     "description": "Create a StateNotifier",
@@ -10,7 +10,7 @@
       "}"
     ]
   },
-  "Legacy: .family State Notifier": {
+  "Riverpod (legacy): .family State Notifier": {
     "scope": "dart",
     "prefix": "stateNotifierFamily",
     "description": "Create a .family StateNotifier",

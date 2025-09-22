@@ -1,5 +1,5 @@
 {
-  "Legacy: State Provider": {
+  "Riverpod (legacy): State Provider": {
     "scope": "dart",
     "prefix": "stateProvider",
     "description": "Create an autodispose StateProvider",
@@ -9,7 +9,7 @@
       "});",
     ]
   },
-  "Legacy: Keep Alive State Provider": {
+  "Riverpod (legacy): Keep Alive State Provider": {
     "scope": "dart",
     "prefix": "stateProvider",
     "description": "Create a non-autodispose StateProvider",
@@ -19,7 +19,7 @@
       "});",
     ]
   },
-  "Legacy: State Provider Family": {
+  "Riverpod (legacy): State Provider Family": {
     "scope": "dart",
     "prefix": "stateProviderFamily",
     "description": "Create an autodispose family StateProvider",

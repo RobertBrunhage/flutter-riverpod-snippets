@@ -1,5 +1,5 @@
 {
-  "Legacy: StateNotifier Provider": {
+  "Riverpod (legacy): StateNotifier Provider": {
     "scope": "dart",
     "prefix": "stateNotifierProvider",
     "description": "Create an autodispose StateNotifierProvider",
@@ -9,7 +9,7 @@
       "});"
     ]
   },
-  "Legacy: Keep Alive StateNotifier Provider": {
+  "Riverpod (legacy): Keep Alive StateNotifier Provider": {
     "scope": "dart",
     "prefix": "stateNotifierProviderKeepAlive",
     "description": "Create a non-autodispose StateNotifierProvider",
@@ -19,7 +19,7 @@
       "});"
     ]
   },
-  "Legacy: .family StateNotifier Provider": {
+  "Riverpod (legacy): .family StateNotifier Provider": {
     "scope": "dart",
     "prefix": "stateNotifierProviderFamily",
     "description": "Create an autodispose family StateNotifierProvider",
