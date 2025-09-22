@@ -1,7 +1,7 @@
 {
   "Consumer Stateless": {
     "scope": "dart",
-    "prefix": "stlessConsumer",
+    "prefix": "statelessConsumerWidget",
     "description": "Create a ConsumerStatelessWidget",
     "body": [
       "class $1 extends ConsumerWidget {",
@@ -15,7 +15,7 @@
   },
   "Consumer Stateful": {
     "scope": "dart",
-    "prefix": "stfulConsumer",
+    "prefix": "statefulConsumerWidget",
     "description": "Create a ConsumerStatefulWidget",
     "body": [
       "class $1 extends ConsumerStatefulWidget {",
