@@ -15,7 +15,7 @@
 	"Riverpod: Family AsyncNotifier class": {
 		"scope": "dart",
 		"prefix": "asyncNotifierFamily",
-		"description": "Create an AsyncNotifier with Family Parameter",
+		"description": "Create a parametrized AsyncNotifier",
 		"body": [
 			"class $1Notifier extends AsyncNotifier<$2> {",
 			"\t$1Notifier(this.$4);",
