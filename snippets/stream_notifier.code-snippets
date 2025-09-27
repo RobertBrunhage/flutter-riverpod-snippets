@@ -1,8 +1,8 @@
 {
-	"Riverpod: StreamNotifier class": {
+	"Riverpod: StreamNotifier": {
 		"scope": "dart",
 		"prefix": "streamNotifier",
-		"description": "Create a StreamNotifier class",
+		"description": "Creates a StreamNotifier",
 		"body": [
 			"class $1Notifier extends StreamNotifier<$2> {",
 			"\t@override",
@@ -12,10 +12,10 @@
 			"}"
 		]
 	},
-	"Riverpod: Family StreamNotifier class": {
+	"Riverpod: Family StreamNotifier": {
 		"scope": "dart",
 		"prefix": "streamNotifierFamily",
-		"description": "Create a parametrized StreamNotifier",
+		"description": "Creates a parametrized StreamNotifier",
 		"body": [
 			"class $1Notifier extends StreamNotifier<$2> {",
 			"\t$1Notifier(this.$4);",

@@ -2,7 +2,7 @@
   "Hook Consumer Stateless Widget": {
     "scope": "dart",
     "prefix": "statelessHookConsumerWidget",
-    "description": "Create a HookConsumerWidget",
+    "description": "Creates a HookConsumerWidget",
     "body": [
       "class $1 extends HookConsumerWidget {",
       "\tconst $1({super.key});",
@@ -16,7 +16,7 @@
   "Hook Consumer Stateful Widget": {
     "scope": "dart",
     "prefix": "statefulHookConsumerWidget",
-    "description": "Create a StatefulHookConsumerWidget",
+    "description": "Creates a StatefulHookConsumerWidget",
     "body": [
       "class $1 extends StatefulHookConsumerWidget {",
       "\tconst $1({super.key});\n",

@@ -7,53 +7,62 @@ snippets such as `provider`.
 
 ## Snippets
 
-| Shortcut                       | Description                                                                 |
-| ------------------------------ | --------------------------------------------------------------------------- |
-| `consumer`                     | Creates the Consumer widget                                                 |
-| `stlessConsumer`               | Creates a ConsumerStateless widget                                          |
-| `stfulConsumer`                | Creates a ConsumerStateful widget                                           |
-| `stlessHookConsumer`           | Creates a Stateless HookConsumer widget                                     |
-| `stfulHookConsumer`            | Creates a Stateful HookConsumer widget                                      |
-| `provider`                     | Creates a simple riverpod provider                                          |
-| `providerFamily`               | Creates a provider with the family modifier                                 |
-| `futureProvider`               | Creates a FutureProvider                                                    |
-| `futureProviderFamily`         | Creates a FutureProvider with the family modifier                           |
-| `streamProvider`               | Creates a StreamProvider                                                    |
-| `streamProviderFamily`         | Creates a StreamProvider with the family modifier                           |
-| `changeNotifierProvider`       | Creates a ChangeNotifierProvider                                            |
-| `changeNotifierProviderFamily` | Creates a ChangeNotifierProvider with the family modifier                   |
-| `stateProvider`                | Creates a StateProvider                                                     |
-| `stateProviderFamily`          | Creates a StateProvider with the family modifier                            |
-| `stateProviderFamily`          | Creates a StateProvider with the family modifier                            |
-| `stateNotifierProvider`        | Creates a StateNotifier provider                                            |
-| `stateNotifierProviderFamily`  | Creates a StateNotifierProvider with the family modifier                    |
-| `stateNotifier`                | Creates a class that extends StateNotifier and allows you to edit the types |
-| `asyncNotifierProvider`        | Create an AsyncNotifierProvider                                             |
-| `asyncNotifierProviderFamily`  | Create an AsyncNotifierProvider with Family Modifier                        |
-| `asyncNotifier`                | Create an AsyncNotifier class                                               |
-| `asyncNotifierFamily`          | Create an AsyncNotifier with Family Parameter                               |
-| `notifierProvider`             | Create a NotifierProvider                                                   |
-| `notifierProviderFamily`       | Create a NotifierProvider with Family Modifier                              |
-| `notifier`                     | Create a Notifier class                                                     |
-| `notifierFamily`               | Create a Notifier with Family Parameter                                     |
-| `streamNotifierProvider`        | Create an StreamNotifierProvider                                           |
-| `streamNotifierProviderFamily`  | Create an StreamNotifierProvider with Family Modifier                      |
-| `streamNotifier`                | Create an StreamNotifier class                                             |
-| `streamNotifierFamily`          | Create an StreamNotifier with Family Parameter                             |
-| `listen`                       | Creates a Provider Listenable                                               |
-| `riverpod`                     | Creates a simple Provider                                                   |
-| `riverpodKeepAlive`            | Creates a simple keep alive Provider                                        |
-| `riverpodFuture`               | Creates a FutureProvider                                                    |
-| `riverpodFutureKeepAlive`      | Creates a keep alive FutureProvider                                         |
-| `riverpodStream`               | Creates a StreamProvider                                                    |
-| `riverpodStreamKeepAlive`      | Creates a keep alive StreamProvider                                         |
-| `riverpodClass`                | Creates a class Provider                                                    |
-| `riverpodClassKeepAlive`       | Creates a keep alive class Provider                                         |
-| `riverpodAsyncClass`           | Creates an async class Provider                                             |
-| `riverpodAsyncClassKeepAlive`  | Creates a keep alive async class Provider                                   |
-| `riverpodStreamClass`           | Creates an stream class Provider                                           |
-| `riverpodStreamClassKeepAlive`  | Creates a keep alive stream class Provider                                 |
-| `riverpodPart`                 | Create a part statement for Riverpod                                        |
+| Shortcut                             | Description                                                                 |
+| ------------------------------------ | --------------------------------------------------------------------------- |
+| `consumer`                           | Creates the Consumer widget                                                 |
+| `statelessConsumerWidget`            | Creates a ConsumerWidget                                                    |
+| `statefulConsumerWidget`             | Creates a ConsumerStatefulWidget                                            |
+| `statelessHookConsumerWidget`        | Creates a HookConsumerWidget                                                |
+| `statefulHookConsumerWidget`         | Creates a StatefulHookConsumerWidget                                        |
+| `provider`                           | Creates an autodispose Provider                                             |
+| `providerKeepAlive`                  | Creates a non-autodispose Provider                                          |
+| `providerFamily`                     | Creates an autodispose family provider                                      |
+| `futureProvider`                     | Creates an autodispose FutureProvider                                       |
+| `futureProviderKeepAlive`            | Creates a non-autodispose FutureProvider                                    |
+| `futureProviderFamily`               | Creates an autodispose family FutureProvider                                |
+| `streamProvider`                     | Creates an autodispose StreamProvider                                       |
+| `streamProviderKeepAlive`            | Creates a non-autodispose StreamProvider                                    |
+| `streamProviderFamily`               | Creates an autodispose family StreamProvider                                |
+| `changeNotifier`                     | Creates a ChangeNotifierProvider                                            |
+| `changeNotifierProvider`             | Creates an autodispose ChangeNotifierProvider                               |
+| `changeNotifierProviderKeepAlive`    | Creates a non-autodispose ChangeNotifierProvider                            |
+| `changeNotifierProviderFamily`       | Creates an autodispose family ChangeNotifierProvider                        |
+| `stateProvider`                      | Creates an autodispose StateProvider (legacy)                               |
+| `stateProviderKeepAlive`             | Creates a non-autodispose StateProvider (legacy)                            |
+| `stateProviderFamily`                | Creates an autodispose family StateProvider (legacy)                        |
+| `stateNotifierProvider`              | Creates an autodispose StateNotifierProvider (legacy)                       |
+| `stateNotifierProviderKeepAlive`     | Creates a non-autodispose StateNotifierProvider (legacy)                    |
+| `stateNotifierProviderFamily`        | Creates an autodispose family StateNotifierProvider (legacy)                |
+| `stateNotifier`                      | Creates a StateNotifier (legacy)                                            |
+| `stateNotifierFamily`                | Creates a parametrized StateNotifier (legacy)                               |
+| `asyncNotifierProvider`              | Creates an autodispose AsyncNotifierProvider                                |
+| `asyncNotifierProviderFamily`        | Creates an autodispose family AsyncNotifierProvider                         |
+| `asyncNotifier`                      | Creates an AsyncNotifier                                                    |
+| `asyncNotifierFamily`                | Creates a parametrized AsyncNotifier                                        |
+| `notifierProvider`                   | Creates an autodispose NotifierProvider                                     |
+| `notifierProviderKeepAlive`          | Creates a non-autodispose NotifierProvider                                  |
+| `notifierProviderFamily`             | Creates an autodispose family NotifierProvider                              |
+| `notifier`                           | Creates a Notifier                                                          |
+| `notifierFamily`                     | Creates a parametrized Notifier                                             |
+| `streamNotifierProvider`             | Creates an autodispose StreamNotifierProvider                               |
+| `streamNotifierProviderKeepAlive`    | Creates a non-autodispose StreamNotifierProvider                            |
+| `streamNotifierProviderFamily`       | Creates an autodispose family StreamNotifierProvider                        |
+| `streamNotifier`                     | Creates a StreamNotifier                                                    |
+| `streamNotifierFamily`               | Creates a parametrized StreamNotifier                                       |
+| `listen`                             | Listens to a provider                                                       |
+| `riverpod`                           | Creates an autodispose Provider (codegen)                                   |
+| `riverpodKeepAlive`                  | Creates a non-autodipose Provider (codegen)                                 |
+| `riverpodFuture`                     | Creates an autodispose FutureProvider (codegen)                             |
+| `riverpodFutureKeepAlive`            | Creates a non-autodispose FutureProvider (codegen)                          |
+| `riverpodStream`                     | Creates an autodispose StreamProvider (codegen)                             |
+| `riverpodStreamKeepAlive`            | Creates a non-autodispose StreamProvider (codegen)                          |
+| `riverpodClass`                      | Creates an autodispose Notifier/NotifierProvider (codegen)                  |
+| `riverpodClassKeepAlive`             | Creates a non-autodispose Notifier/NotifierProvider (codegen)               |
+| `riverpodAsyncClass`                 | Creates an autodispose AsyncNotifier/AsyncNotifierProvider (codegen)        |
+| `riverpodAsyncClassKeepAlive`        | Creates a non-autodispose AsyncNotifier/AsyncNotifierProvide (codegen)      |
+| `riverpodStreamClass`                | Creates an autodispose StreamNotifier/StreamNotifierProvider (codegen)      |
+| `riverpodStreamClassKeepAlive`       | Creates a non-autodispose StreamNotifier/StreamNotifierProvider (codegen)   |
+| `riverpodPart`                       | Creates a part statement for Riverpod (codegen)                             |
 
 ## Contributing
 Feel free to open PRs for small issues such as typos. For large issues or features, please open an issue first.

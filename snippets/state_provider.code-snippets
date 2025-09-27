@@ -2,7 +2,7 @@
   "Riverpod (legacy): State Provider": {
     "scope": "dart",
     "prefix": "stateProvider",
-    "description": "Create an autodispose StateProvider",
+    "description": "Creates an autodispose StateProvider",
     "body": [
       "final $1Provider = StateProvider.autoDispose<$2>((ref) {",
       "\t$3",
@@ -11,8 +11,8 @@
   },
   "Riverpod (legacy): Keep Alive State Provider": {
     "scope": "dart",
-    "prefix": "stateProvider",
-    "description": "Create a non-autodispose StateProvider",
+    "prefix": "stateProviderKeepAlive",
+    "description": "Creates a non-autodispose StateProvider",
     "body": [
       "final $1Provider = StateProvider<$2>((ref) {",
       "\t$3",
@@ -22,7 +22,7 @@
   "Riverpod (legacy): State Provider Family": {
     "scope": "dart",
     "prefix": "stateProviderFamily",
-    "description": "Create an autodispose family StateProvider",
+    "description": "Creates an autodispose family StateProvider",
     "body": [
       "final $1Provider = StateProvider.autoDispose.family<$2, $3>((ref, $4) {",
       "\t$5",

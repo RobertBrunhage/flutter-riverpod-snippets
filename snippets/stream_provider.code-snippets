@@ -2,7 +2,7 @@
   "Riverpod: StreamProvider": {
     "scope": "dart",
     "prefix": "streamProvider",
-    "description": "Create an autodispose StreamProvider",
+    "description": "Creates an autodispose StreamProvider",
     "body": [
       "final $1Provider = StreamProvider.autoDispose<$2>((ref) {",
       "\t$3",
@@ -12,7 +12,7 @@
   "Riverpod: Keep Alive StreamProvider": {
     "scope": "dart",
     "prefix": "streamProviderKeepAlive",
-    "description": "Create a non-autodispose StreamProvider",
+    "description": "Creates a non-autodispose StreamProvider",
     "body": [
       "final $1Provider = StreamProvider<$2>((ref) {",
       "\t$3",
@@ -22,7 +22,7 @@
   "Riverpod: .family StreamProvider": {
     "scope": "dart",
     "prefix": "streamProviderFamily",
-    "description": "Create an autodispose family StreamProvider",
+    "description": "Creates an autodispose family StreamProvider",
     "body": [
       "final $1Provider = StreamProvider.autoDispose.family<$2, $3>((ref, $4) {",
       "\t$5",

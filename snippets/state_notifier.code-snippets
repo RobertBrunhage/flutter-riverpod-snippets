@@ -2,7 +2,7 @@
   "Riverpod (legacy): State Notifier": {
     "scope": "dart",
     "prefix": "stateNotifier",
-    "description": "Create a StateNotifier",
+    "description": "Creates a StateNotifier",
     "body": [
       "class $1Notifier extends StateNotifier<$2> {",
       "\t$1Notifier(): super($3);",
@@ -13,7 +13,7 @@
   "Riverpod (legacy): .family State Notifier": {
     "scope": "dart",
     "prefix": "stateNotifierFamily",
-    "description": "Create a .family StateNotifier",
+    "description": "Creates a parametrized StateNotifier",
     "body": [
       "class $1Notifier extends StateNotifier<$2> {",
       "\t$1Notifier(this.$5): super($3);",

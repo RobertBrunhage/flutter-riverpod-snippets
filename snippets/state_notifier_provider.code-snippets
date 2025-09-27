@@ -2,7 +2,7 @@
   "Riverpod (legacy): StateNotifier Provider": {
     "scope": "dart",
     "prefix": "stateNotifierProvider",
-    "description": "Create an autodispose StateNotifierProvider",
+    "description": "Creates an autodispose StateNotifierProvider",
     "body": [
       "final $1Provider = StateNotifierProvider.autoDispose<$2, $3>((ref) {",
       "\treturn $2();",
@@ -12,7 +12,7 @@
   "Riverpod (legacy): Keep Alive StateNotifier Provider": {
     "scope": "dart",
     "prefix": "stateNotifierProviderKeepAlive",
-    "description": "Create a non-autodispose StateNotifierProvider",
+    "description": "Creates a non-autodispose StateNotifierProvider",
     "body": [
       "final $1Provider = StateNotifierProvider<$2, $3>((ref) {",
       "\treturn $2();",
@@ -22,7 +22,7 @@
   "Riverpod (legacy): .family StateNotifier Provider": {
     "scope": "dart",
     "prefix": "stateNotifierProviderFamily",
-    "description": "Create an autodispose family StateNotifierProvider",
+    "description": "Creates an autodispose family StateNotifierProvider",
     "body": [
       "final $1Provider = StateNotifierProvider.autoDispose.family<$2, $3, $4>((ref, $5) {",
       "\treturn $2($5);",

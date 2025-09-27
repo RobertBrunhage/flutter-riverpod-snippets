@@ -2,7 +2,7 @@
   "Consumer Stateless": {
     "scope": "dart",
     "prefix": "statelessConsumerWidget",
-    "description": "Create a ConsumerStatelessWidget",
+    "description": "Creates a ConsumerWidget",
     "body": [
       "class $1 extends ConsumerWidget {",
       "\tconst $1({super.key});\n",
@@ -16,7 +16,7 @@
   "Consumer Stateful": {
     "scope": "dart",
     "prefix": "statefulConsumerWidget",
-    "description": "Create a ConsumerStatefulWidget",
+    "description": "Creates a ConsumerStatefulWidget",
     "body": [
       "class $1 extends ConsumerStatefulWidget {",
       "\tconst $1({super.key});\n",

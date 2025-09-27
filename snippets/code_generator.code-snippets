@@ -2,7 +2,7 @@
 	"Riverpod (codegen): part statement": {
 		"scope": "dart",
 		"prefix": "riverpodPart",
-		"description": "Create a part statement for Riverpod (codegen)",
+		"description": "Creates a part statement for Riverpod (codegen)",
 		"body": [
 			"part '${TM_FILENAME_BASE}.g.dart';",
 		]
@@ -10,7 +10,7 @@
 	"Riverpod (codegen): Provider": {
 		"scope": "dart",
 		"prefix": "riverpod",
-		"description": "Create a Provider (codegen)",
+		"description": "Creates a Provider (codegen)",
 		"body": [
 			"@riverpod",
 			"$1 $2(Ref ref) {",
@@ -21,7 +21,7 @@
 	"Riverpod (codegen): Keep Alive Provider": {
 		"scope": "dart",
 		"prefix": "riverpodKeepAlive",
-		"description": "Create a non-autodispose Provider (codegen)",
+		"description": "Creates a non-autodispose Provider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"$1 $2(Ref ref) {",
@@ -32,7 +32,7 @@
 	"Riverpod (codegen): FutureProvider": {
 		"scope": "dart",
 		"prefix": "riverpodFuture",
-		"description": "Create a FutureProvider (codegen)",
+		"description": "Creates a FutureProvider (codegen)",
 		"body": [
 			"@riverpod",
 			"FutureOr<$1> $2(Ref ref) {",
@@ -43,7 +43,7 @@
 	"Riverpod (codegen): Keep Alive FutureProvider": {
 		"scope": "dart",
 		"prefix": "riverpodFutureKeepAlive",
-		"description": "Create a Keep Alive FutureProvider (codegen)",
+		"description": "Creates a non-autodispose FutureProvider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"FutureOr<$1> $2(Ref ref) {",
@@ -54,7 +54,7 @@
 	"Riverpod (codegen): StreamProvider": {
 		"scope": "dart",
 		"prefix": "riverpodStream",
-		"description": "Create a StreamProvider (codegen)",
+		"description": "Creates a StreamProvider (codegen)",
 		"body": [
 			"@riverpod",
 			"Stream<$1> $2(Ref ref) {",
@@ -65,7 +65,7 @@
 	"Riverpod (codegen): Keep Alive StreamProvider": {
 		"scope": "dart",
 		"prefix": "riverpodStreamKeepAlive",
-		"description": "Create a Keep Alive StreamProvider (codegen)",
+		"description": "Creates a non-autodispose StreamProvider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"Stream<$1> $2(Ref ref) {",
@@ -76,7 +76,7 @@
 	"Riverpod (codegen): Notifier / NotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodClass",
-		"description": "Create a Notifier / NotifierProvider (codegen)",
+		"description": "Creates an autodispose Notifier/NotifierProvider (codegen)",
 		"body": [
 			"@riverpod",
 			"class $1 extends _$$1 {",
@@ -90,7 +90,7 @@
 	"Riverpod (codegen): Keep Alive Notifier / NotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodClassKeepAlive",
-		"description": "Create a Keep Alive Notifier / NotifierProvider (codegen)",
+		"description": "Creates a non-autodispose Notifier/NotifierProvider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"class $1 extends _$$1 {",
@@ -104,7 +104,7 @@
 	"Riverpod (codegen): AsyncNotifier / AsyncNotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodAsyncClass",
-		"description": "Create an AsyncNotifier / AsyncNotifierProvider (codegen)",
+		"description": "Creates an autodispose AsyncNotifier/AsyncNotifierProvider (codegen)",
 		"body": [
 			"@riverpod",
 			"class $1 extends _$$1 {",
@@ -118,7 +118,7 @@
 	"Riverpod (codegen): Keep Alive AsyncNotifier / AsyncNotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodAsyncClassKeepAlive",
-		"description": "Create a Keep Alive AsyncNotifier / AsyncNotifierProvider (codegen)",
+		"description": "Creates a non-autodispose AsyncNotifier/AsyncNotifierProvider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"class $1 extends _$$1 {",
@@ -132,7 +132,7 @@
 	"Riverpod (codegen): StreamNotifier / StreamNotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodStreamClass",
-		"description": "Create an StreamNotifier / StreamNotifierProvider (codegen)",
+		"description": "Creates an autodispose StreamNotifier/StreamNotifierProvider (codegen)",
 		"body": [
 			"@riverpod",
 			"class $1 extends _$$1 {",
@@ -146,7 +146,7 @@
 	"Riverpod (codegen): Keep Alive StreamNotifier / StreamNotifierProvider": {
 		"scope": "dart",
 		"prefix": "riverpodStreamClassKeepAlive",
-		"description": "Create a Keep Alive StreamNotifier / StreamNotifierProvider (codegen)",
+		"description": "Creates a non-autodispose StreamNotifier/StreamNotifierProvider (codegen)",
 		"body": [
 			"@Riverpod(keepAlive: true)",
 			"class $1 extends _$$1 {",
