@@ -79,8 +79,6 @@ git commit -m "Fix typo in readme"
 git push origin my-fix
 ```
 
-The commit naming follows [this structure](https://chris.beams.io/posts/git-commit/)
-
 Add the changes done to `CHANGELOG.md` and update the version in `package.json`
 
 ## Release Notes
