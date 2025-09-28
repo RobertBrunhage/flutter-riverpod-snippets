@@ -1,21 +1,31 @@
 {
-  "Change Notifier Provider": {
+  "Riverpod (legacy): ChangeNotifier Provider": {
     "scope": "dart",
     "prefix": "changeNotifierProvider",
-    "description": "Create a ChangeNotifierProvider",
+    "description": "Creates an autodispose ChangeNotifierProvider",
     "body": [
-      "final $1Provider = ChangeNotifierProvider<$2>((ref) {",
-      "\treturn $3;",
+      "final $1Provider = ChangeNotifierProvider.autoDispose<$2>((ref) {",
+      "\treturn $2();",
       "});"
     ]
   },
-  "Change Notifier Provider with Family": {
+  "Riverpod (legacy): Keep Alive ChangeNotifier Provider": {
+    "scope": "dart",
+    "prefix": "changeNotifierProviderKeepAlive",
+    "description": "Creates a non-autodispose ChangeNotifierProvider",
+    "body": [
+      "final $1Provider = ChangeNotifierProvider<$2>((ref) {",
+      "\treturn $2();",
+      "});"
+    ]
+  },
+  "Riverpod (legacy): .family ChangeNotifier Provider": {
     "scope": "dart",
     "prefix": "changeNotifierProviderFamily",
-    "description": "Create a ChangeNotifierProvider with Family modifier",
+    "description": "Creates an autodispose family ChangeNotifierProvider",
     "body": [
-      "final $1Provider = ChangeNotifierProvider.family<$2, $3>((ref, $4) {",
-      "\treturn $5;",
+      "final $1Provider = ChangeNotifierProvider.autoDispose.family<$2, $3>((ref, $4) {",
+      "\treturn $5($4);",
       "});"
     ]
   }

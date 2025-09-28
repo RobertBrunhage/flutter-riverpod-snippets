@@ -4,6 +4,12 @@ All notable changes to the **flutter-riverpod-snippets** extension will be docum
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+### [2.0.0]
+- Support for `Riverpod` **v3.0**
+- simplified most snippets
+- improved some prefix for correctness, consistency and simplicity
+- improved snippet titles and descriptions
+
 ### [1.2.2]
 
 ### Add

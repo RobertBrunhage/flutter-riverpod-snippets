@@ -1,26 +1,28 @@
 {
-    "Riverpod: Notifier class": {
-        "scope": "dart",
+	"Riverpod: Notifier": {
+		"scope": "dart",
 		"prefix": "notifier",
-		"description": "Create a Notifier class",
+		"description": "Creates a Notifier",
 		"body": [
 			"class $1Notifier extends Notifier<$2> {",
 			"\t@override",
 			"\t$2 build() {",
-			"\t\treturn $3;",
+			"\t\t$3",
 			"\t}",
 			"}"
 		]
 	},
-	"Riverpod: Family Notifier class": {
-        "scope": "dart",
+	"Riverpod: Family Notifier": {
+		"scope": "dart",
 		"prefix": "notifierFamily",
-		"description": "Create a Notifier with Editable Parameter",
+		"description": "Creates a parametrized Notifier",
 		"body": [
-			"class $1Notifier extends FamilyNotifier<$2, $3> {",
+			"class $1Notifier extends Notifier<$2> {",
+			"\t$1Notifier(this.$4);",
+			"\tfinal $3 $4;",
 			"\t@override",
-			"\t$2 build($3 arg) {",
-			"\t\treturn $4;",
+			"\t$2 build() {",
+			"\t\t$5",
 			"\t}",
 			"}"
 		]

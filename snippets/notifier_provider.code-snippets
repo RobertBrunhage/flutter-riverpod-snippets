@@ -1,18 +1,26 @@
 {
-    "Riverpod: Notifier Provider": {
-        "scope": "dart",
+	"Riverpod: NotifierProvider": {
+		"scope": "dart",
 		"prefix": "notifierProvider",
-		"description": "Create a NotifierProvider",
+		"description": "Creates an autodispose NotifierProvider",
+		"body": [
+			"final $1Provider = NotifierProvider.autoDispose<$2, $3>($2.new);",
+		]
+	},
+	"Riverpod: Keep Alive NotifierProvider": {
+		"scope": "dart",
+		"prefix": "notifierProviderKeepAlive",
+		"description": "Creates a non-autodispose NotifierProvider",
 		"body": [
 			"final $1Provider = NotifierProvider<$2, $3>($2.new);",
 		]
 	},
-	"Riverpod: Notifier Provider with Family": {
-        "scope": "dart",
+	"Riverpod: .family NotifierProvider": {
+		"scope": "dart",
 		"prefix": "notifierProviderFamily",
-		"description": "Create a NotifierProvider with Family Modifier",
+		"description": "Creates an autodispose family NotifierProvider",
 		"body": [
-			"final $1Provider = NotifierProviderFamily<$2, $3, $4>($2.new);",
+			"final $1Provider = NotifierProvider.autoDispose.family<$2, $3, $4>($2.new);",
 		]
 	},
 }

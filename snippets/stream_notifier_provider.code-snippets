@@ -1,18 +1,26 @@
 {
-    "Riverpod: StreamNotifier Provider": {
-        "scope": "dart",
+	"Riverpod: StreamNotifierProvider": {
+		"scope": "dart",
 		"prefix": "streamNotifierProvider",
-		"description": "Create an StreamNotifierProvider",
+		"description": "Creates an autodispose StreamNotifierProvider",
+		"body": [
+			"final $1Provider = StreamNotifierProvider.autoDispose<$2, $3>($2.new);",
+		]
+	},
+	"Riverpod: Keep Alive StreamNotifierProvider": {
+		"scope": "dart",
+		"prefix": "streamNotifierProviderKeepAlive",
+		"description": "Creates a non-autodispose StreamNotifierProvider",
 		"body": [
 			"final $1Provider = StreamNotifierProvider<$2, $3>($2.new);",
 		]
 	},
-	"Riverpod: StreamNotifier Provider with Family": {
-        "scope": "dart",
+	"Riverpod: .family StreamNotifierProvider": {
+		"scope": "dart",
 		"prefix": "streamNotifierProviderFamily",
-		"description": "Create an StreamNotifierProvider with Family Modifier",
+		"description": "Creates an autodispose family StreamNotifierProvider",
 		"body": [
-			"final $1Provider = StreamNotifierProviderFamily<$2, $3, $4>($2.new);",
+			"final $1Provider = StreamNotifierProvider.autoDispose.family<$2, $3, $4>($2.new);",
 		]
 	},
 }

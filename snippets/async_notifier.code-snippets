@@ -1,26 +1,28 @@
 {
-    "Riverpod: AsyncNotifier class": {
-        "scope": "dart",
+	"Riverpod: AsyncNotifier": {
+		"scope": "dart",
 		"prefix": "asyncNotifier",
-		"description": "Create an AsyncNotifier class",
+		"description": "Creates an AsyncNotifier",
 		"body": [
 			"class $1Notifier extends AsyncNotifier<$2> {",
 			"\t@override",
 			"\tFutureOr<$2> build() {",
-			"\t\treturn $3;",
+			"\t\t$3",
 			"\t}",
 			"}"
 		]
 	},
-	"Riverpod: Family AsyncNotifier class": {
-        "scope": "dart",
+	"Riverpod: Family AsyncNotifier": {
+		"scope": "dart",
 		"prefix": "asyncNotifierFamily",
-		"description": "Create an AsyncNotifier with Family Parameter",
+		"description": "Creates a parametrized AsyncNotifier",
 		"body": [
-			"class $1Notifier extends FamilyAsyncNotifier<$2, $3> {",
+			"class $1Notifier extends AsyncNotifier<$2> {",
+			"\t$1Notifier(this.$4);",
+			"\tfinal $3 $4;",
 			"\t@override",
-			"\tFutureOr<$2> build($3 arg) {",
-			"\t\treturn $4;",
+			"\tFutureOr<$2> build() {",
+			"\t\t$5",
 			"\t}",
 			"}"
 		]
